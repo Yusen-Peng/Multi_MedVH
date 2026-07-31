@@ -8,8 +8,6 @@ from PIL import Image
 from tqdm import tqdm
 
 
-
-
 DATASET_NAME = "PULSE-ECG/ECGBench"
 CONFIG_NAME = "code15-test"
 SPLIT = "test"
