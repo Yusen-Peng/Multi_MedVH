@@ -1,7 +1,62 @@
 [
-    
-
-
-
+    {
+        "question_id": "code15-1109348",
+        "image_path": "ECG_images/000000_code15-1109348.png",        
+        "question": "Classify the ECG as normal or abnormal.",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },        
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-944269",
+        "image_path": "ECG_images/000001_code15-944269.png",
+        "question": "Classify the ECG as normal or abnormal.",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000002",
+        "image_path": "CT_images/radimagenet-vqa-test-000002.jpg",
+        "question": "Select the correct anatomical region.",
+        "options": {
+            "A": "knee",
+            "B": "spine",
+            "C": "lung",
+            "D": "abdomen"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000005",
+        "image_path": "CT_images/radimagenet-vqa-test-000005.jpg",
+        "question": "Is there an abnormality present?",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000006",
+        "image_path": "MRI_images/radimagenet-vqa-test-000006.jpg",
+        "question": "Select the correct anatomical region.",
+        "options": {
+            "A": "shoulder",
+            "B": "hip",
+            "C": "knee",
+            "D": "spine"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    }
 
 ]
