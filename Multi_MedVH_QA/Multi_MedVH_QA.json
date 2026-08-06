@@ -3,6 +3,7 @@
         "question_id": "code15-1109348",
         "image_path": "ECG_images/000000_code15-1109348.png",        
         "question": "Classify the ECG as normal or abnormal.",
+        "question_type": "baseline",
         "options": {
             "A": "normal",
             "B": "abnormal"
@@ -14,6 +15,247 @@
         "question_id": "code15-944269",
         "image_path": "ECG_images/000001_code15-944269.png",
         "question": "Classify the ECG as normal or abnormal.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1517409",
+        "image_path": "ECG_images/000003_code15-1517409.png",
+        "question": "Classify the ECG as normal or abnormal.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-2074857",
+        "image_path": "ECG_images/000004_code15-2074857.png",
+        "question": "Classify the ECG as normal or abnormal.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-576019",
+        "image_path": "ECG_images/000002_code15-576019.png",
+        "question": "Classify the ECG as normal or abnormal.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-497493",
+        "image_path": "ECG_images/000006_code15-497493.png",
+        "question": "Evaluate the ECG and determine if it is normal or abnormal. Your result should be NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-3079188",
+        "image_path": "ECG_images/000007_code15-3079188.png",
+        "question": "Classify the ECG as normal or abnormal.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-2969246",
+        "image_path": "ECG_images/000008_code15-2969246.png",
+        "question": "Classify the ECG as normal or abnormal.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1661875",
+        "image_path": "ECG_images/000009_code15-1661875.png",
+        "question": "Inspect the ECG and decide if it is normal or abnormal. Provide NORM or ABNORMAL as the result.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-695833",
+        "image_path": "ECG_images/000010_code15-695833.png",
+        "question": "Analyze the ECG image to determine if it is normal or abnormal. Output either NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-2831972",
+        "image_path": "ECG_images/000011_code15-2831972.png",
+        "question": "Determine if the ECG image is normal or abnormal. Output should be NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-2966620",
+        "image_path": "ECG_images/000012_code15-2966620.png",
+        "question": "Assess whether the ECG is normal or abnormal. Provide NORM or ABNORMAL as the result.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-3140371",
+        "image_path": "ECG_images/000013_code15-3140371.png",
+        "question": "Evaluate if the ECG image is within normal limits or abnormal. Output NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-366275",
+        "image_path": "ECG_images/000014_code15-366275.png",
+        "question": "Check the ECG reading to determine if it is normal or abnormal. Result should be NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-426842",
+        "image_path": "ECG_images/000015_code15-426842.png",
+        "question": "Analyze the ECG image to determine if it is normal or abnormal. Output either NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1271302",
+        "image_path": "ECG_images/000016_code15-1271302.png",
+        "question": "Determine if the ECG image is normal or abnormal. Output should be NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-3021833",
+        "image_path": "ECG_images/000017_code15-3021833.png",
+        "question": "Evaluate the ECG and determine if it is normal or abnormal. Your result should be NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-3195038",
+        "image_path": "ECG_images/000018_code15-3195038.png",
+        "question": "Inspect the ECG and decide if it is normal or abnormal. Provide NORM or ABNORMAL as the result.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-4202916",
+        "image_path": "ECG_images/000019_code15-4202916.png",
+        "question": "Assess whether the ECG is normal or abnormal. Provide NORM or ABNORMAL as the result.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-294705",
+        "image_path": "ECG_images/000020_code15-294705.png",
+        "question": "Inspect the ECG and decide if it is normal or abnormal. Provide NORM or ABNORMAL as the result.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-442895",
+        "image_path": "ECG_images/000021_code15-442895.png",
+        "question": "Check the ECG reading to determine if it is normal or abnormal. Result should be NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "normal",
+            "B": "abnormal"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1283018",
+        "image_path": "ECG_images/000022_code15-1283018.png",
+        "question": "Evaluate the ECG and determine if it is normal or abnormal. Your result should be NORM or ABNORMAL.",
+        "question_type": "baseline",
         "options": {
             "A": "normal",
             "B": "abnormal"
@@ -25,6 +267,7 @@
         "question_id": "radimagenet-vqa-test-000002",
         "image_path": "CT_images/radimagenet-vqa-test-000002.jpg",
         "question": "Select the correct anatomical region.",
+        "question_type": "baseline",
         "options": {
             "A": "knee",
             "B": "spine",
@@ -38,6 +281,7 @@
         "question_id": "radimagenet-vqa-test-000005",
         "image_path": "CT_images/radimagenet-vqa-test-000005.jpg",
         "question": "Is there an abnormality present?",
+        "question_type": "baseline",
         "options": {
             "A": "yes",
             "B": "no"
@@ -49,6 +293,7 @@
         "question_id": "radimagenet-vqa-test-000006",
         "image_path": "MRI_images/radimagenet-vqa-test-000006.jpg",
         "question": "Select the correct anatomical region.",
+        "question_type": "baseline",
         "options": {
             "A": "shoulder",
             "B": "hip",
@@ -57,6 +302,338 @@
         },
         "correct_answer": "B",
         "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000007",
+        "image_path": "MRI_images/radimagenet-vqa-test-000007.jpg",
+        "question": "Is there an abnormality present?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    }, 
+    {
+        "question_id": "radimagenet-vqa-test-000008",
+        "image_path": "MRI_images/radimagenet-vqa-test-000008.jpg",
+        "question": "Can you see the brain?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000009",
+        "image_path": "MRI_images/radimagenet-vqa-test-000009.jpg",
+        "question": "Is the spine affected by disc pathology?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000010",
+        "image_path": "CT_images/radimagenet-vqa-test-000010.jpg",
+        "question": "Is this image abnormal?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000011",
+        "image_path": "MRI_images/radimagenet-vqa-test-000011.jpg",
+        "question": "Is the abdomen affected by enlarged organ?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000012",
+        "image_path": "MRI_images/radimagenet-vqa-test-000012.jpg",
+        "question": "What is the most likely pathology in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "hamstring pathology",
+            "B": "chondral pathology",
+            "C": "labral pathology",
+            "D": "no pathology seen"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000014",
+        "image_path": "MRI_images/radimagenet-vqa-test-000014.jpg",
+        "question": "Which of the following anatomical regions is depicted in this scan?",
+        "question_type": "baseline",
+        "options": {
+            "A": "shoulder",
+            "B": "lung",
+            "C": "knee",
+            "D": "ankle foot"
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000016",
+        "image_path": "MRI_images/radimagenet-vqa-test-000016.jpg",
+        "question": "Does the patient have osseous lesion?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000017",
+        "image_path": "MRI_images/radimagenet-vqa-test-000017.jpg",
+        "question": "Which body part is visible in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "shoulder",
+            "B": "lung",
+            "C": "knee",
+            "D": "ankle foot"
+        },
+        "correct_answer": "C",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000018",
+        "image_path": "CT_images/radimagenet-vqa-test-000018.jpg",
+        "question": "What pathology is shown in this scan of lung?",
+        "question_type": "baseline",
+        "options": {
+            "A": "nodule",
+            "B": "airspace opacity",
+            "C": "interstitial lung disease",
+            "D": "no pathology seen"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000019",
+        "image_path": "MRI_images/radimagenet-vqa-test-000019.jpg",
+        "question": "Is there evidence of scoliosis in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000020",
+        "image_path": "MRI_images/radimagenet-vqa-test-000020.jpg",
+        "question": "Is the spine part of this scan?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000021",
+        "image_path": "MRI_images/radimagenet-vqa-test-000021.jpg",
+        "question": "Can you identify the shoulder in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000022",
+        "image_path": "MRI_images/radimagenet-vqa-test-000022.jpg",
+        "question": "What organ is highlighted in this scan?",
+        "question_type": "baseline",
+        "options": {
+            "A": "shoulder",
+            "B": "lung",
+            "C": "knee",
+            "D": "ankle foot"
+        },
+        "correct_answer": "C",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000023",
+        "image_path": "CT_images/radimagenet-vqa-test-000023.jpg",
+        "question": "Is there an abnormality present?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000024",
+        "image_path": "CT_images/radimagenet-vqa-test-000024.jpg",
+        "question": "Is the abdomen visible in the image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+    "question_id": "radimagenet-vqa-test-000025",
+        "image_path": "CT_images/radimagenet-vqa-test-000025.jpg",
+        "question": "What organ is highlighted in this scan?",
+        "question_type": "baseline",
+        "options": {
+            "A": "abdomen",
+            "B": "shoulder",
+            "C": "lung",
+            "D": "knee"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000026",
+        "image_path": "MRI_images/radimagenet-vqa-test-000026.jpg",
+        "question": "Does the patient have facet arthropathy?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000027",
+        "image_path": "MRI_images/radimagenet-vqa-test-000027.jpg",
+        "question": "What condition is affecting the hip?",
+        "question_type": "baseline",
+        "options": {
+            "A": "labral pathology",
+            "B": "marrow inflammation",
+            "C": "chondral pathology",
+            "D": "no pathology seen"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000028",
+        "image_path": "MRI_images/radimagenet-vqa-test-000028.jpg",
+        "question": "Which of the following pathologies is present in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "marrow inflammation",
+            "B": "chondral pathology",
+            "C": "labral pathology",
+            "D": "no pathology seen"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000030",
+        "image_path": "MRI_images/radimagenet-vqa-test-000030.jpg",
+        "question": "Is postoperative state present?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000031",
+        "image_path": "CT_images/radimagenet-vqa-test-000031.jpg",
+        "question": "Is there evidence of bladder pathology in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000032",
+        "image_path": "MRI_images/radimagenet-vqa-test-000032.jpg",
+        "question": "Is there evidence of soft tissue fluid collection in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000033",
+        "image_path": "MRI_images/radimagenet-vqa-test-000033.jpg",
+        "question": "Does the picture contain the spine?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000037",
+        "image_path": "CT_images/radimagenet-vqa-test-000037.jpg",
+        "question": "What abnormality is present in this scan?",
+        "question_type": "baseline",
+        "options": {
+            "A": "renal lesion",
+            "B": "bowel abnormality",
+            "C": "liver lesion",
+            "D": "no pathology seen"
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000038",
+        "image_path": "CT_images/radimagenet-vqa-test-000038.jpg",
+        "question": "What is the correct anatomical region for this scan?",
+        "question_type": "baseline",
+        "options": {
+            "A": "brain",
+            "B": "knee",
+            "C": "spine",
+            "D": "lung"
+        },
+        "correct_answer": "D",
+        "modality": "CT"
     }
 
 ]
