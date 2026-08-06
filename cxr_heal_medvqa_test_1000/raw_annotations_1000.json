@@ -1,33 +1,5 @@
 [
   {
-    "question_id": "1_7afe7d6b62fec4f70b09008b9ada0fd7",
-    "image path": "images/000000_7afe7d6b62fec4f70b09008b9ada0fd7.jpg",
-    "prompt": "What abnormalities are present in Right lower lung?",
-    "GT": "The location of Right lower lung is at <seg>. It has no abnormalities",
-    "category": "CXR"
-  },
-  {
-    "question_id": "1_6b33644865832cf3e25c5d00049c0380",
-    "image path": "images/000001_6b33644865832cf3e25c5d00049c0380.jpg",
-    "prompt": "What abnormalities does Aorta suffer from?",
-    "GT": "The location of Aorta is at <seg>. It has no abnormalities",
-    "category": "CXR"
-  },
-  {
-    "question_id": "0_231a4b73de5ac7e0218f736b6b6ff1f2",
-    "image path": "images/000002_231a4b73de5ac7e0218f736b6b6ff1f2.jpg",
-    "prompt": "Does the patient have Nodule/Mass at Right upper lung?",
-    "GT": "The location of Right upper lung is at <seg>. The answer is Yes",
-    "category": "CXR"
-  },
-  {
-    "question_id": "5_c65efe41cef6390d70796a2947dbcc91",
-    "image path": "images/000003_c65efe41cef6390d70796a2947dbcc91.jpg",
-    "prompt": "List all abnormalities in Right upper lung?",
-    "GT": "The location of Right upper lung is at <seg>. It suffers from  Pleural thickening.",
-    "category": "CXR"
-  },
-  {
     "question_id": "9_c0f992e23de30afb875371c3630cb9af",
     "image path": "images/000004_c0f992e23de30afb875371c3630cb9af.jpg",
     "prompt": "Does the patient have Infiltration at Aorta?",

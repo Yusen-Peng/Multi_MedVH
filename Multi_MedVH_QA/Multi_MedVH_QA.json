@@ -634,6 +634,70 @@
         },
         "correct_answer": "D",
         "modality": "CT"
-    }
+    },
+    {
+        "question_id": "1_7afe7d6b62fec4f70b09008b9ada0fd7",
+        "image_path": "CXR_images/000000_7afe7d6b62fec4f70b09008b9ada0fd7.jpg",
+        "question": "What abnormalities are present in Right lower lung?",
+        "question_type": "baseline",
+        "options": {
+            "A": "pneumonia",
+            "B": "pleural effusion",
+            "C": "mass",
+            "D": "no abnormalities"
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "1_6b33644865832cf3e25c5d00049c0380",
+        "image_path": "CXR_images/000001_6b33644865832cf3e25c5d00049c0380.jpg",
+        "question": "What abnormalities does Aorta suffer from?",
+        "question_type": "baseline",
+        "options": {
+            "A": "pneumonia",
+            "B": "pleural effusion",
+            "C": "mass",
+            "D": "no abnormalities"
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "0_231a4b73de5ac7e0218f736b6b6ff1f2",
+        "image_path": "CXR_images/000002_231a4b73de5ac7e0218f736b6b6ff1f2.jpg",
+        "question": "Does the patient have Nodule/Mass at Right upper lung?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "5_c65efe41cef6390d70796a2947dbcc91",
+        "image_path": "CXR_images/000003_c65efe41cef6390d70796a2947dbcc91.jpg",
+        "question": "List all abnormalities in Right upper lung?",
+        "question_type": "baseline",
+        "options": {
+            "A": "pneumonia",
+            "B": "pleural effusion",
+            "C": "mass",
+            "D": "no abnormalities"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+
+
+
+
+
+
+    
+
+
+
 
 ]
