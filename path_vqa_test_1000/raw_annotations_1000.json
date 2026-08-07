@@ -1,12 +1,5 @@
 [
   {
-    "question_id": "pathvqa-test-000000",
-    "image path": "images/pathvqa-test-000000.jpg",
-    "prompt": "does this image show trachea, necrotizing tracheitis?",
-    "GT": "yes",
-    "category": "pathology"
-  },
-  {
     "question_id": "pathvqa-test-000001",
     "image path": "images/pathvqa-test-000001.jpg",
     "prompt": "is vasculature present?",

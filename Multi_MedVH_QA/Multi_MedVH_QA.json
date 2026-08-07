@@ -689,13 +689,578 @@
         "correct_answer": "B",
         "modality": "CXR"
     },
-
-
-
-
-
-
-    
+    {
+        "question_id": "9_c0f992e23de30afb875371c3630cb9af",
+        "image_path": "CXR_images/000004_c0f992e23de30afb875371c3630cb9af.jpg",
+        "question": "Does the patient have Infiltration at Aorta?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "6_8a7ca215a9c86fb9a1352de720c182f3",
+        "image_path": "CXR_images/000006_8a7ca215a9c86fb9a1352de720c182f3.jpg",
+        "question": "Is there Aortic enlargement in the Right lower lung of this patient?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "4_1060e455b64eea9e29ca4a3e05b47557",
+        "image_path": "CXR_images/000007_1060e455b64eea9e29ca4a3e05b47557.jpg",
+        "question": "What abnormalities are present in Right upper lung?",
+        "question_type": "baseline",
+        "options": {
+            "A": "pneumonia",
+            "B": "pleural effusion",
+            "C": "mass",
+            "D": "no abnormalities"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "3_e74b1c3bddcee3e007b6851bd8ff8174",
+        "image_path": "CXR_images/000008_e74b1c3bddcee3e007b6851bd8ff8174.jpg",
+        "question": "Does Heart suffer from Cardiomegaly?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_7ac1d89421035b48e47b4f1a1c970f4c",
+        "image_path": "CXR_images/000013_7ac1d89421035b48e47b4f1a1c970f4c.jpg",
+        "question": "What abnormalities does Right middle lung suffer from?",
+        "question_type": "baseline",
+        "options": {
+            "A": "pneumonia",
+            "B": "pleural effusion",
+            "C": "mass",
+            "D": "no abnormalities"
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "3_01570ee44031e4ebab6031501293bf66",
+        "image_path": "CXR_images/000014_01570ee44031e4ebab6031501293bf66.jpg",
+        "question": "Is there Pulmonary fibrosis in the Aorta of this patient?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_3928719f9491f45fa9205d9efc2603bd",
+        "image_path": "CXR_images/000015_3928719f9491f45fa9205d9efc2603bd.jpg",
+        "question": "What abnormalities are present in Heart?",
+        "question_type": "baseline",
+        "options": {
+            "A": "Ventricular Septal Defect",
+            "B": "Atrial Septal Defect",
+            "C": "Cardiomegaly",
+            "D": "no abnormalities"
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "6_6dd1a29dcafeb9545da50d85324bb781",
+        "image_path": "CXR_images/000018_6dd1a29dcafeb9545da50d85324bb781.jpg",
+        "question": "Does Aorta suffer from Lung Opacity?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "6_2e02414c9f4b2b23a7761fe8c2b3bc93",
+        "image_path": "CXR_images/000019_2e02414c9f4b2b23a7761fe8c2b3bc93.jpg",
+        "question": "Is there Calcification in the Heart of this patient?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "1_aca2dc4418182356911b47ede407b1da",
+        "image_path": "CXR_images/000025_aca2dc4418182356911b47ede407b1da.jpg",
+        "question": "Is there Pleural effusion in the Aorta of this patient?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "6_3daa0e551477dbb5c10280fd744c4087",
+        "image_path": "CXR_images/000026_3daa0e551477dbb5c10280fd744c4087.jpg",
+        "question": "Does Heart suffer from Pleural effusion?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_d1ee146b55af8b9cd84ec605a9aa36bd",
+        "image_path": "CXR_images/000027_d1ee146b55af8b9cd84ec605a9aa36bd.jpg",
+        "question": "List all abnormalities in Aorta?",
+        "question_type": "baseline",
+        "options": {
+            "A": "Ventricular Septal Defect",
+            "B": "Atrial Septal Defect",
+            "C": "Calcification",
+            "D": "no abnormalities"
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "7_2ebb05b4c603d590854c621fa4f1fd5c",
+        "image_path": "CXR_images/000028_2ebb05b4c603d590854c621fa4f1fd5c.jpg",
+        "question": "Does Heart suffer from Pleural effusion?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "1_93b19937892c90a3d062674c7c554765",
+        "image_path": "CXR_images/000032_93b19937892c90a3d062674c7c554765.jpg",
+        "question": "Does the patient have ILD at Heart?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "1_554e1d570c4477ac3fdc18d5a5af678a",
+        "image_path": "CXR_images/000033_554e1d570c4477ac3fdc18d5a5af678a.jpg",
+        "question": "Does the patient have Nodule/Mass at Heart?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "0_7d73640c06cf3a247cf7157f3f7bcaac",
+        "image_path": "CXR_images/000034_7d73640c06cf3a247cf7157f3f7bcaac.jpg",
+        "question": "Is there Pneumothorax in the Right middle lung of this patient?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "0_9e9cc9d084546cb6d7f7ddba63411a81",
+        "image_path": "CXR_images/000035_9e9cc9d084546cb6d7f7ddba63411a81.jpg",
+        "question": "Is there Pulmonary fibrosis in the Left upper lung of this patient?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "0_215115970e51098f4e636b47f9dcc0a0",
+        "image_path": "CXR_images/000036_215115970e51098f4e636b47f9dcc0a0.jpg",
+        "question": "Does Left middle lung suffer from Consolidation?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "code15-3189064",
+        "image_path": "ECG_images/000621_code15-3189064.png",
+        "question": "Check the ECG reading to determine if it is normal or abnormal. Result should be NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-652718",
+        "image_path": "ECG_images/000622_code15-652718.png",
+        "question": "Analyze whether the ECG is normal or abnormal. Your output should be NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-2977857",
+        "image_path": "ECG_images/000623_code15-2977857.png",
+        "question": "Determine if the ECG image is normal or abnormal. Output should be NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-376414",
+        "image_path": "ECG_images/000624_code15-376414.png",
+        "question": "Check if the ECG reading is normal or abnormal. Output NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1223662",
+        "image_path": "ECG_images/000625_code15-1223662.png",
+        "question": "Decide if the ECG image shows a normal or abnormal pattern. Output NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1181536",
+        "image_path": "ECG_images/000626_code15-1181536.png",
+        "question": "Classify the ECG image as either normal or abnormal. Output NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-2685197",
+        "image_path": "ECG_images/000627_code15-2685197.png",
+        "question": "Classify the ECG image as either normal or abnormal. Output NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+    "question_id": "code15-2851633",
+        "image_path": "ECG_images/000628_code15-2851633.png",
+        "question": "Decide the status of the ECG: normal or abnormal. Your result should be NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1355285",
+        "image_path": "ECG_images/000629_code15-1355285.png",
+        "question": "Assess whether the ECG is normal or abnormal. Provide NORM or ABNORMAL as the result.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-448876",
+        "image_path": "ECG_images/000630_code15-448876.png",
+        "question": "Assess the ECG to see if it is normal or abnormal. Output should be NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1990091",
+        "image_path": "ECG_images/000631_code15-1990091.png",    
+        "question": "Analyze whether the ECG is normal or abnormal. Your output should be NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-2778822",
+        "image_path": "ECG_images/000632_code15-2778822.png",
+        "question": "Check if the ECG reading is normal or abnormal. Output NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1951553",
+        "image_path": "ECG_images/000633_code15-1951553.png",
+        "question": "Assess whether the ECG is normal or abnormal. Provide NORM or ABNORMAL as the result.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+    "question_id": "code15-2063331",
+        "image_path": "ECG_images/000634_code15-2063331.png",
+        "question": "Classify the ECG as normal or abnormal. Provide NORM or ABNORMAL as the output.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-825005",
+        "image_path": "ECG_images/000635_code15-825005.png",
+        "question": "Check if the ECG reading is normal or abnormal. Output NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1240588",
+        "image_path": "ECG_images/000636_code15-1240588.png",
+        "question": "Identify whether the ECG image indicates a normal or abnormal reading. Output should be NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1926847",
+        "image_path": "ECG_images/000637_code15-1926847.png",
+        "question": "Analyze whether the ECG is normal or abnormal. Your output should be NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-2679349",
+        "image_path": "ECG_images/000638_code15-2679349.png",
+        "question": "Analyze whether the ECG is normal or abnormal. Your output should be NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1477751",
+        "image_path": "ECG_images/000639_code15-1477751.png",
+        "question": "Evaluate if the ECG image is within normal limits or abnormal. Output NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-2866173",
+        "image_path": "ECG_images/000640_code15-2866173.png",
+        "question": "Determine the status of the ECG image: normal or abnormal. Output should be NORM or ABNORMAL.",
+        "question_type": "baseline",
+        "options": {
+            "A": "NORM",
+            "B": "ABNORMAL"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-3073247",
+        "image_path": "ECG_images/000700_code15-3073247.png",
+        "question": "Determine the appropriate class for the ECG image: 1dAVb(1st degree av block), RBBB(right bundle branch block), LBBB(left bundle branch block), SB(sinus bradycardia), ST(sinus tachycardia), AF(atrial fibrillation).",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-817686",
+        "image_path": "ECG_images/000701_code15-817686.png",
+        "question": "Determine the appropriate class for the ECG image: 1dAVb(1st degree av block), RBBB(right bundle branch block), LBBB(left bundle branch block), SB(sinus bradycardia), ST(sinus tachycardia), AF(atrial fibrillation).",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-4276080",
+        "image_path": "ECG_images/000702_code15-4276080.png",
+        "question": "Determine the appropriate class for the ECG image: 1dAVb(1st degree av block), RBBB(right bundle branch block), LBBB(left bundle branch block), SB(sinus bradycardia), ST(sinus tachycardia), AF(atrial fibrillation).",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1539921",
+        "image_path": "ECG_images/000703_code15-1539921.png",
+        "question": "Determine the appropriate class for the ECG image: 1dAVb(1st degree av block), RBBB(right bundle branch block), LBBB(left bundle branch block), SB(sinus bradycardia), ST(sinus tachycardia), AF(atrial fibrillation).",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-487410",
+        "image_path": "ECG_images/000704_code15-487410.png",
+        "question": "Determine the appropriate class for the ECG image: 1dAVb(1st degree av block), RBBB(right bundle branch block), LBBB(left bundle branch block), SB(sinus bradycardia), ST(sinus tachycardia), AF(atrial fibrillation).",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-902017",
+        "image_path": "ECG_images/000705_code15-902017.png",
+        "question": "Determine the appropriate class for the ECG image: 1dAVb(1st degree av block), RBBB(right bundle branch block), LBBB(left bundle branch block), SB(sinus bradycardia), ST(sinus tachycardia), AF(atrial fibrillation).",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "E",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "pathvqa-test-000000",
+        "image_path": "Pathology_images/pathvqa-test-000000.jpg",
+        "question": "does this image show trachea, necrotizing tracheitis?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    }
 
 
 
