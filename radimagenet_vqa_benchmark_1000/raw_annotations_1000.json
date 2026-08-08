@@ -1,26 +1,4 @@
 [
-
-  {
-    "question_id": "radimagenet-vqa-test-000039",
-    "image path": "images/radimagenet-vqa-test-000039.jpg",
-    "prompt": "Is this image abnormal?",
-    "GT": "no",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000040",
-    "image path": "images/radimagenet-vqa-test-000040.jpg",
-    "prompt": "What anatomical region is shown?",
-    "GT": "brain",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000041",
-    "image path": "images/radimagenet-vqa-test-000041.jpg",
-    "prompt": "Does this scan reveal any abnormalities?",
-    "GT": "yes",
-    "category": "CT"
-  },
   {
     "question_id": "radimagenet-vqa-test-000042",
     "image path": "images/radimagenet-vqa-test-000042.jpg",
