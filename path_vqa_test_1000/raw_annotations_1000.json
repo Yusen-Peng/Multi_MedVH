@@ -1,12 +1,5 @@
 [
   {
-    "question_id": "pathvqa-test-000055",
-    "image path": "images/pathvqa-test-000055.jpg",
-    "prompt": "is cardiovascular present?",
-    "GT": "yes",
-    "category": "pathology"
-  },
-  {
     "question_id": "pathvqa-test-000056",
     "image path": "images/pathvqa-test-000056.jpg",
     "prompt": "what show preserved outlines with loss of nuclei?",

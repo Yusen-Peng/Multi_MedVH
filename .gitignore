@@ -3,3 +3,5 @@ ecgbench_code15/images/*.png
 path_vqa_test_1000/images/*.jpg
 radimagenet_vqa_benchmark_1000/images/*.jpg
 .env
+__pycache__/
+outputs/

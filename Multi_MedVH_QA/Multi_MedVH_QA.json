@@ -1904,6 +1904,682 @@
         },
         "correct_answer": "A",
         "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000042",
+        "image_path": "CT_images/radimagenet-vqa-test-000042.jpg",
+        "question": "What is the correct anatomical region for this scan?",
+        "question_type": "baseline",
+        "options": {
+            "A": "brain",
+            "B": "hip",
+            "C": "lung",
+            "D": "spine"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000043",
+        "image_path": "MRI_images/radimagenet-vqa-test-000043.jpg",
+        "question": "Select the correct anatomical region.",
+        "question_type": "baseline",
+        "options": {
+            "A": "ankle foot",
+            "B": "knee",
+            "C": "hip",
+            "D": "brain"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000044",
+        "image_path": "MRI_images/radimagenet-vqa-test-000044.jpg",
+        "question": "Is the hip affected by chondral pathology?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000045",
+        "image_path": "CT_images/radimagenet-vqa-test-000045.jpg",
+        "question": "Can you see the lung?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000046",
+        "image_path": "MRI_images/radimagenet-vqa-test-000046.jpg",
+        "question": "Which of the following anatomical regions is depicted in this scan?",
+        "question_type": "baseline",
+        "options": {
+            "A": "brain",
+            "B": "hip",
+            "C": "shoulder",
+            "D": "abdomen"
+        },
+        "correct_answer": "C",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000047",
+        "image_path": "CT_images/radimagenet-vqa-test-000047.jpg",
+        "question": "Does this scan reveal any abnormalities?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000048",
+        "image_path": "CT_images/radimagenet-vqa-test-000048.jpg",
+        "question": "Can you identify the spine in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000049",
+        "image_path": "CT_images/radimagenet-vqa-test-000049.jpg",
+        "question": "Which body part is visible in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "brain",
+            "B": "hip",
+            "C": "lung",
+            "D": "spine"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000051",
+        "image_path": "MRI_images/radimagenet-vqa-test-000051.jpg",
+        "question": "Select the correct anatomical region.",
+        "question_type": "baseline",
+        "options": {
+            "A": "abdomen",
+            "B": "shoulder",
+            "C": "spine",
+            "D": "hip"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000052",
+        "image_path": "CT_images/radimagenet-vqa-test-000052.jpg",
+        "question": "Is nodule present?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000053",
+        "image_path": "MRI_images/radimagenet-vqa-test-000053.jpg",
+        "question": "Is this image abnormal?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000054",
+        "image_path": "MRI_images/radimagenet-vqa-test-000054.jpg",
+        "question": "Does the picture contain the knee?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000055",
+        "image_path": "MRI_images/radimagenet-vqa-test-000055.jpg",
+        "question": "Does the patient have lisfranc joint injury?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000056",
+        "image_path": "CT_images/radimagenet-vqa-test-000056.jpg",
+        "question": "What is the correct anatomical region for this scan?",
+        "question_type": "baseline",
+        "options": {
+            "A": "spine",
+            "B": "abdomen",
+            "C": "knee",
+            "D": "lung"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000057",
+        "image_path": "MRI_images/radimagenet-vqa-test-000057.jpg",
+        "question": "Is white matter changes present?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000058",
+        "image_path": "MRI_images/radimagenet-vqa-test-000058.jpg",
+        "question": "Does this image show the abdomen?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000059",
+        "image_path": "MRI_images/radimagenet-vqa-test-000059.jpg",
+        "question": "Can you see the knee?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000060",
+        "image_path": "MRI_images/radimagenet-vqa-test-000060.jpg",
+        "question": "Which of the following anatomical regions is depicted in this scan?",
+        "question_type": "baseline",
+        "options": {
+            "A": "spine",
+            "B": "hip",
+            "C": "lung",
+            "D": "ankle foot"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000062",
+        "image_path": "MRI_images/radimagenet-vqa-test-000062.jpg",
+        "question": "Does the ankle foot look abnormal?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "code15-327522",
+        "image_path": "ECG_images/000706_code15-327522.png",
+        "question": "Determine the appropriate class for the ECG image",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-469355",
+        "image_path": "ECG_images/000707_code15-469355.png",
+        "question": "Determine the appropriate class for the ECG image",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-818249",
+        "image_path": "ECG_images/000708_code15-818249.png",
+        "question": "Determine the appropriate class for the ECG image",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "F",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-28788",
+        "image_path": "ECG_images/000709_code15-28788.png",
+        "question": "Determine the appropriate class for the ECG image",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1746232",
+        "image_path": "ECG_images/000710_code15-1746232.png",
+        "question": "Determine the appropriate class for the ECG image",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-2021259",
+        "image_path": "ECG_images/000711_code15-2021259.png",
+        "question": "Determine the appropriate class for the ECG image",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    
+    {
+        "question_id": "code15-245941",
+        "image_path": "ECG_images/000712_code15-245941.png",
+        "question": "Determine the appropriate class for the ECG image",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1917629",
+        "image_path": "ECG_images/000713_code15-1917629.png",
+        "question": "Determine the appropriate class for the ECG image",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "F",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-3135120",
+        "image_path": "ECG_images/000715_code15-3135120.png",
+        "question": "Determine the appropriate class for the ECG image",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-231114",
+        "image_path": "ECG_images/000716_code15-231114.png",
+        "question": "Determine the appropriate class for the ECG image.",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-4208491",
+        "image_path": "ECG_images/000717_code15-4208491.png",
+        "question": "Determine the appropriate class for the ECG image",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1135495",
+        "image_path": "ECG_images/000718_code15-1135495.png",
+        "question": "Determine the appropriate class for the ECG image: 1dAVb(1st degree av block), RBBB(right bundle branch block), LBBB(left bundle branch block), SB(sinus bradycardia), ST(sinus tachycardia), AF(atrial fibrillation).",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1771518",
+        "image_path": "ECG_images/000719_code15-1771518.png",
+        "question": "Determine the appropriate class for the ECG image: 1dAVb(1st degree av block), RBBB(right bundle branch block), LBBB(left bundle branch block), SB(sinus bradycardia), ST(sinus tachycardia), AF(atrial fibrillation).",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "C",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1866341",
+        "image_path": "ECG_images/000720_code15-1866341.png",
+        "question": "Determine the appropriate class for the ECG image: 1dAVb(1st degree av block), RBBB(right bundle branch block), LBBB(left bundle branch block), SB(sinus bradycardia), ST(sinus tachycardia), AF(atrial fibrillation).",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "F",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-3176193",
+        "image_path": "ECG_images/000721_code15-3176193.png",
+        "question": "Determine the appropriate class for the ECG image: 1dAVb(1st degree av block), RBBB(right bundle branch block), LBBB(left bundle branch block), SB(sinus bradycardia), ST(sinus tachycardia), AF(atrial fibrillation).",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1080802",
+        "image_path": "ECG_images/000722_code15-1080802.png",
+        "question": "Determine the appropriate class for the ECG image: 1dAVb(1st degree av block), RBBB(right bundle branch block), LBBB(left bundle branch block), SB(sinus bradycardia), ST(sinus tachycardia), AF(atrial fibrillation).",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-492274",
+        "image_path": "ECG_images/000723_code15-492274.png",
+        "question": "Determine the appropriate class for the ECG image: 1dAVb(1st degree av block), RBBB(right bundle branch block), LBBB(left bundle branch block), SB(sinus bradycardia), ST(sinus tachycardia), AF(atrial fibrillation).",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "E",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-979436",
+        "image_path": "ECG_images/000724_code15-979436.png",
+        "question": "Determine the appropriate class for the ECG image: 1dAVb(1st degree av block), RBBB(right bundle branch block), LBBB(left bundle branch block), SB(sinus bradycardia), ST(sinus tachycardia), AF(atrial fibrillation).",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "C",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-2930506",
+        "image_path": "ECG_images/000725_code15-2930506.png",
+        "question": "Determine the appropriate class for the ECG image: 1dAVb(1st degree av block), RBBB(right bundle branch block), LBBB(left bundle branch block), SB(sinus bradycardia), ST(sinus tachycardia), AF(atrial fibrillation).",
+        "question_type": "baseline",
+        "options": {
+            "A": "1dAVb",
+            "B": "RBBB",
+            "C": "LBBB",
+            "D": "SB",
+            "E": "ST",
+            "F": "AF"
+        },
+        "correct_answer": "E",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "4_eab57c526a617da691b80234ed8ee9d9",
+        "image_path": "CXR_images/000060_eab57c526a617da691b80234ed8ee9d9.jpg",
+        "question": "Is there Infiltration in the Right middle lung of this patient?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_07494843e43e308ec5b7ec0e9f0ad829",
+        "image_path": "CXR_images/000061_07494843e43e308ec5b7ec0e9f0ad829.jpg",
+        "question": "What abnormalities does Right upper lung suffer from?",
+        "question_type": "baseline",
+        "options": {
+            "A": "pneumonia",
+            "B": "pleural effusion",
+            "C": "mass",
+            "D": "no abnormalities"
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_7ff325eacac9130136777f4e98a769a2",
+        "image_path": "CXR_images/000063_7ff325eacac9130136777f4e98a769a2.jpg",
+        "question": "List all abnormalities in Heart?",
+        "question_type": "baseline",
+        "options": {
+            "A": "Ventricular Septal Defect",
+            "B": "Atrial Septal Defect",
+            "C": "Cardiomegaly",
+            "D": "no abnormalities"
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "0_7fccbf8d7cf537f74586ca8f1ab56fc1",
+        "image_path": "CXR_images/000066_7fccbf8d7cf537f74586ca8f1ab56fc1.jpg",
+        "question": "Does Heart suffer from Cardiomegaly?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "0_93ae57ca1df1d19c6d64155e74e14d23",
+        "image_path": "CXR_images/000067_93ae57ca1df1d19c6d64155e74e14d23.jpg",
+        "question": "Is there Atelectasis in the Right middle lung of this patient?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "10_528b0f9791c96c9cb1b2e4f510223f8e",
+        "image_path": "CXR_images/000068_528b0f9791c96c9cb1b2e4f510223f8e.jpg",
+        "question": "Is there Calcification in the Aorta of this patient?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "5_942df4c44fdc6ffe0111740028a25581",
+        "image_path": "CXR_images/000070_942df4c44fdc6ffe0111740028a25581.jpg",
+        "question": "What abnormalities does Right middle lung suffer from?",
+        "question_type": "baseline",
+        "options": {
+            "A": "pneumothorax",
+            "B": "pleural effusion",
+            "C": "mass",
+            "D": "no abnormalities"
+        },
+        "correct_answer": "A",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_f9849624906b15585f9f7f998b34193c",
+        "image_path": "CXR_images/000071_f9849624906b15585f9f7f998b34193c.jpg",
+        "question": "Does the patient have Cardiomegaly at Left lower lung?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "1_096688dacee6b1a1a5660ad15024a6f9",
+        "image_path": "CXR_images/000073_096688dacee6b1a1a5660ad15024a6f9.jpg",
+        "question": "What abnormalities does Left lower lung suffer from?",
+        "question_type": "baseline",
+        "options": {
+            "A": "pneumothorax",
+            "B": "pleural effusion",
+            "C": "mass",
+            "D": "lung opacity",
+            "E": "no abnormalities"
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "pathvqa-test-000055",
+        "image_path": "Pathology_images/pathvqa-test-000000.jpg",
+        "question": "is cardiovascular present?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
     }
 
 
