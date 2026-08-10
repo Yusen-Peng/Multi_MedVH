@@ -55,7 +55,7 @@ CUDA_VISIBLE_DEVICES=0 taskset -c 11-20 python LLaVA_runner.py \
     --temperature 0
 ```
 
-### LLaVA-1.5-7B
+### LLaVAMed-1.5-7B
 
 inference:
 
@@ -81,3 +81,65 @@ CUDA_VISIBLE_DEVICES=0 taskset -c 11-20 python LLaVA_runner.py \
    --temperature 0
 ```
 
+
+## QwenVL models
+
+### Qwen2VL 2B
+
+inference:
+
+```bash
+python Qwen2VL_runner.py \
+    --stage inference \
+    --model-path Qwen/Qwen2-VL-2B-Instruct \
+    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
+    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
+    --predictions-file outputs/qwen2vl_2b/predictions.jsonl \
+    --report-dir outputs/qwen2vl_2b/report \
+    --dtype bfloat16 \
+    --temperature 0
+```
+
+evaluation:
+
+```bash
+python Qwen2VL_runner.py \
+    --stage evaluate \
+    --model-path Qwen/Qwen2-VL-2B-Instruct \
+    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
+    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
+    --predictions-file outputs/qwen2vl_2b/predictions.jsonl \
+    --report-dir outputs/qwen2vl_2b/report \
+    --dtype bfloat16 \
+    --temperature 0
+```
+
+### Qwen2VL 7B
+
+inference:
+
+```bash
+python Qwen2VL_runner.py \
+    --stage inference \
+    --model-path Qwen/Qwen2-VL-7B-Instruct \
+    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
+    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
+    --predictions-file outputs/qwen2vl_7b/predictions.jsonl \
+    --report-dir outputs/qwen2vl_7b/report \
+    --dtype bfloat16 \
+    --temperature 0
+```
+
+evaluation:
+
+```bash
+python Qwen2VL_runner.py \
+    --stage evaluate \
+    --model-path Qwen/Qwen2-VL-7B-Instruct \
+    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
+    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
+    --predictions-file outputs/qwen2vl_7b/predictions.jsonl \
+    --report-dir outputs/qwen2vl_7b/report \
+    --dtype bfloat16 \
+    --temperature 0
+```
