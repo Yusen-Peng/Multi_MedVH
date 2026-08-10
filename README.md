@@ -89,7 +89,7 @@ CUDA_VISIBLE_DEVICES=0 taskset -c 11-20 python LLaVA_runner.py \
 inference:
 
 ```bash
-python Qwen2VL_runner.py \
+python QwenVL_runner.py \
     --stage inference \
     --model-path Qwen/Qwen2-VL-2B-Instruct \
     --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
@@ -103,7 +103,7 @@ python Qwen2VL_runner.py \
 evaluation:
 
 ```bash
-python Qwen2VL_runner.py \
+python QwenVL_runner.py \
     --stage evaluate \
     --model-path Qwen/Qwen2-VL-2B-Instruct \
     --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
@@ -119,7 +119,7 @@ python Qwen2VL_runner.py \
 inference:
 
 ```bash
-python Qwen2VL_runner.py \
+python QwenVL_runner.py \
     --stage inference \
     --model-path Qwen/Qwen2-VL-7B-Instruct \
     --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
@@ -133,7 +133,7 @@ python Qwen2VL_runner.py \
 evaluation:
 
 ```bash
-python Qwen2VL_runner.py \
+python QwenVL_runner.py \
     --stage evaluate \
     --model-path Qwen/Qwen2-VL-7B-Instruct \
     --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
@@ -143,3 +143,129 @@ python Qwen2VL_runner.py \
     --dtype bfloat16 \
     --temperature 0
 ```
+
+
+### Qwen3VL 4B
+
+
+```bash
+python QwenVL_runner.py \
+    --stage inference \
+    --model-path Qwen/Qwen3-VL-4B-Instruct \
+    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
+    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
+    --predictions-file outputs/qwen3vl_4b/predictions.jsonl \
+    --report-dir outputs/qwen3vl_4b/report \
+    --dtype bfloat16 \
+    --temperature 0
+```
+
+evaluation:
+
+```bash
+python QwenVL_runner.py \
+    --stage evaluate \
+    --model-path Qwen/Qwen3-VL-4B-Instruct \
+    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
+    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
+    --predictions-file outputs/qwen3vl_4b/predictions.jsonl \
+    --report-dir outputs/qwen3vl_4b/report \
+    --dtype bfloat16 \
+    --temperature 0
+```
+
+### Qwen3VL 8B
+
+
+```bash
+python QwenVL_runner.py \
+    --stage inference \
+    --model-path Qwen/Qwen3-VL-8B-Instruct \
+    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
+    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
+    --predictions-file outputs/qwen3vl_8b/predictions.jsonl \
+    --report-dir outputs/qwen3vl_8b/report \
+    --dtype bfloat16 \
+    --temperature 0
+```
+
+evaluation:
+
+```bash
+python QwenVL_runner.py \
+    --stage evaluate \
+    --model-path Qwen/Qwen3-VL-8B-Instruct \
+    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
+    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
+    --predictions-file outputs/qwen3vl_8b/predictions.jsonl \
+    --report-dir outputs/qwen3vl_8b/report \
+    --dtype bfloat16 \
+    --temperature 0
+```
+
+## MedGemma models
+
+
+### MedGemma-4B
+
+inference:
+
+```bash
+python MedGemma_runner.py \
+    --stage inference \
+    --model-path google/medgemma-4b-it \
+    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
+    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
+    --predictions-file outputs/medgemma_4b/predictions.jsonl \
+    --report-dir outputs/medgemma_4b/report \
+    --dtype bfloat16 \
+    --temperature 0
+```
+
+evaluation:
+
+
+```bash
+python MedGemma_runner.py \
+    --stage evaluate \
+    --model-path google/medgemma-4b-it \
+    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
+    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
+    --predictions-file outputs/medgemma_4b/predictions.jsonl \
+    --report-dir outputs/medgemma_4b/report \
+    --dtype bfloat16 \
+    --temperature 0
+```
+
+
+### MedGemma-27B
+
+inference:
+
+```bash
+python MedGemma_runner.py \
+    --stage inference \
+    --model-path google/medgemma-27b-it \
+    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
+    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
+    --predictions-file outputs/medgemma_27b/predictions.jsonl \
+    --report-dir outputs/medgemma_27b/report \
+    --dtype bfloat16 \
+    --temperature 0
+```
+
+evaluation:
+
+
+```bash
+python MedGemma_runner.py \
+    --stage evaluate \
+    --model-path google/medgemma-27b-it \
+    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
+    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
+    --predictions-file outputs/medgemma_27b/predictions.jsonl \
+    --report-dir outputs/medgemma_27b/report \
+    --dtype bfloat16 \
+    --temperature 0
+```
+

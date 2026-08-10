@@ -8,10 +8,9 @@ from PIL import Image
 from tqdm import tqdm
 
 from transformers import (
-    Qwen2VLForConditionalGeneration,
+    AutoModelForImageTextToText,
     AutoProcessor,
 )
-from qwen_vl_utils import process_vision_info
 
 
 # ============================================================
@@ -76,7 +75,7 @@ def get_model_id(model_path):
 def run_inference(args):
 
     print("\n" + "=" * 70)
-    print("Multi-Med: Qwen2-VL inference")
+    print("Multi-Med: MedGemma inference")
     print("=" * 70 + "\n")
 
     # --------------------------------------------------------
@@ -109,35 +108,19 @@ def run_inference(args):
             args.attn_implementation
         )
 
-    model = (
-        Qwen2VLForConditionalGeneration
-        .from_pretrained(
-            model_path,
-            **model_kwargs,
-        )
+    model = AutoModelForImageTextToText.from_pretrained(
+        model_path,
+        **model_kwargs,
     )
 
     model.eval()
 
     # --------------------------------------------------------
-    # Processor
+    # Load processor
     # --------------------------------------------------------
 
-    processor_kwargs = {}
-
-    if args.min_pixels is not None:
-        processor_kwargs["min_pixels"] = (
-            args.min_pixels
-        )
-
-    if args.max_pixels is not None:
-        processor_kwargs["max_pixels"] = (
-            args.max_pixels
-        )
-
     processor = AutoProcessor.from_pretrained(
-        model_path,
-        **processor_kwargs,
+        model_path
     )
 
     # --------------------------------------------------------
@@ -211,7 +194,7 @@ def run_inference(args):
             # =================================================
             # Benchmark prompt
             #
-            # SAME prompt function used by LLaVA.
+            # SAME prompt function used by LLaVA/Qwen2-VL.
             # =================================================
 
             question_prompt = build_mcq_prompt(
@@ -234,66 +217,81 @@ def run_inference(args):
             ).convert("RGB")
 
             # =================================================
-            # Qwen2-VL chat message
+            # MedGemma chat format
+            #
+            # Keep system prompt fixed across benchmark.
             # =================================================
 
             messages = [
                 {
-                    "role": "user",
+                    "role": "system",
                     "content": [
                         {
-                            "type": "image",
-                            "image": image,
-                        },
+                            "type": "text",
+                            "text": args.system_prompt,
+                        }
+                    ],
+                },
+                {
+                    "role": "user",
+                    "content": [
                         {
                             "type": "text",
                             "text": question_prompt,
                         },
+                        {
+                            "type": "image",
+                            "image": image,
+                        },
                     ],
-                }
+                },
             ]
 
             # =================================================
-            # Qwen2-VL preprocessing
+            # MedGemma preprocessing
             #
-            # Follow the official Qwen2-VL pipeline:
-            #
-            #   apply_chat_template(tokenize=False)
-            #       ↓
-            #   process_vision_info()
-            #       ↓
-            #   processor(...)
+            # Follow the native processor pipeline directly.
             # =================================================
 
-            text = processor.apply_chat_template(
+            inputs = processor.apply_chat_template(
                 messages,
-                tokenize=False,
                 add_generation_prompt=True,
-            )
-
-            image_inputs, video_inputs = (
-                process_vision_info(
-                    messages
-                )
-            )
-
-            inputs = processor(
-                text=[text],
-                images=image_inputs,
-                videos=video_inputs,
-                padding=True,
+                tokenize=True,
+                return_dict=True,
                 return_tensors="pt",
             )
 
             # -------------------------------------------------
-            # With device_map="auto", model.device points to
-            # the embedding/input device for standard Qwen2-VL
-            # inference.
+            # Follow the official MedGemma usage:
+            #
+            #     .to(model.device, dtype=torch.bfloat16)
+            #
+            # But use the requested dtype rather than hardcode.
             # -------------------------------------------------
 
-            inputs = inputs.to(
-                model.device
+            model_dtype = resolve_dtype(
+                args.dtype
             )
+
+            if model_dtype == "auto":
+                inputs = inputs.to(
+                    model.device
+                )
+            else:
+                inputs = inputs.to(
+                    model.device,
+                    dtype=model_dtype,
+                )
+
+            # =================================================
+            # Input length
+            #
+            # Needed so we decode ONLY newly-generated tokens.
+            # =================================================
+
+            input_len = inputs[
+                "input_ids"
+            ].shape[-1]
 
             # =================================================
             # Generation arguments
@@ -309,10 +307,6 @@ def run_inference(args):
                 "use_cache":
                     True,
             }
-
-            # -------------------------------------------------
-            # Deterministic benchmark evaluation
-            # -------------------------------------------------
 
             if args.temperature > 0:
 
@@ -342,40 +336,33 @@ def run_inference(args):
 
             with torch.inference_mode():
 
-                generated_ids = model.generate(
+                generation = model.generate(
                     **inputs,
                     **generation_kwargs,
                 )
 
             # =================================================
-            # IMPORTANT:
-            # Remove input prompt before decoding.
+            # CRITICAL:
+            # Decode only generated tokens.
             #
-            # Without this, extract_prediction() could parse
-            # option letters from the MCQ prompt itself.
+            # Otherwise the MCQ prompt itself would be included,
+            # which could confuse extract_prediction().
             # =================================================
 
-            generated_ids_trimmed = [
-                out_ids[
-                    len(in_ids):
-                ]
-                for in_ids, out_ids
-                in zip(
-                    inputs.input_ids,
-                    generated_ids,
-                )
+            generation = generation[
+                0,
+                input_len:
             ]
 
-            output_text = processor.batch_decode(
-                generated_ids_trimmed,
+            output_text = processor.decode(
+                generation,
                 skip_special_tokens=True,
-                clean_up_tokenization_spaces=False,
-            )[0].strip()
+            ).strip()
 
             # =================================================
             # Prediction parsing
             #
-            # SAME implementation as LLaVA.
+            # SAME implementation as LLaVA/Qwen2-VL.
             # =================================================
 
             prediction_letter = extract_prediction(
@@ -393,7 +380,7 @@ def run_inference(args):
             )
 
             # =================================================
-            # SAME JSON schema as LLaVA
+            # SAME JSON schema as other runners
             # =================================================
 
             result = {
@@ -464,7 +451,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
         description=(
-            "Qwen2-VL inference and evaluation "
+            "MedGemma inference and evaluation "
             "for the Multi-Med benchmark."
         )
     )
@@ -496,13 +483,13 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model-path",
         type=str,
-        default="Qwen/Qwen2-VL-7B-Instruct",
+        default="google/medgemma-4b-it",
     )
 
     parser.add_argument(
         "--dtype",
         type=str,
-        default="auto",
+        default="bfloat16",
         choices=[
             "auto",
             "float16",
@@ -524,33 +511,16 @@ if __name__ == "__main__":
         "--attn-implementation",
         type=str,
         default=None,
-        help=(
-            "Optional attention implementation, "
-            "e.g. flash_attention_2."
-        ),
-    )
-
-    # ========================================================
-    # Qwen2-VL image resolution
-    # ========================================================
-
-    parser.add_argument(
-        "--min-pixels",
-        type=int,
-        default=None,
-        help=(
-            "Optional minimum image pixels used "
-            "by the Qwen2-VL processor."
-        ),
     )
 
     parser.add_argument(
-        "--max-pixels",
-        type=int,
-        default=None,
+        "--system-prompt",
+        type=str,
+        default=(
+            "You are an expert medical imaging specialist."
+        ),
         help=(
-            "Optional maximum image pixels used "
-            "by the Qwen2-VL processor."
+            "System prompt used for every benchmark question."
         ),
     )
 
@@ -581,7 +551,7 @@ if __name__ == "__main__":
         "--predictions-file",
         type=str,
         default=(
-            "outputs/qwen2vl_predictions.jsonl"
+            "outputs/medgemma_predictions.jsonl"
         ),
     )
 
@@ -589,7 +559,7 @@ if __name__ == "__main__":
         "--report-dir",
         type=str,
         default=(
-            "outputs/qwen2vl_report"
+            "outputs/medgemma_report"
         ),
     )
 
@@ -653,7 +623,7 @@ if __name__ == "__main__":
 
     elif args.stage == "evaluate":
 
-        # SAME evaluator as LLaVA.
+        # SAME evaluator as LLaVA / Qwen2-VL.
         run_evaluation(args)
 
     elif args.stage == "all":
@@ -668,5 +638,5 @@ if __name__ == "__main__":
 
         run_inference(args)
 
-        # SAME evaluator as LLaVA.
+        # SAME evaluator as LLaVA / Qwen2-VL.
         run_evaluation(args)
