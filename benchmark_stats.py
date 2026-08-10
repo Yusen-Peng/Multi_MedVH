@@ -52,4 +52,4 @@ table.loc["Total"] = table.sum(axis=0)
 print("\nBenchmark Composition\n")
 print(table)
 
-table.to_csv("benchmark_composition.csv")
+table.to_csv("results/benchmark_composition.csv")

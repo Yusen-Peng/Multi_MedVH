@@ -269,3 +269,32 @@ python MedGemma_runner.py \
     --temperature 0
 ```
 
+
+## GPT-4o
+
+inference:
+
+```bash
+# set the API key first
+export OPENAI_API_KEY="sk-..."
+python GPT_runner.py \
+    --stage inference \
+    --model gpt-4o \
+    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
+    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
+    --predictions-file outputs/gpt4o/predictions.jsonl \
+    --report-dir outputs/gpt4o/report
+```
+
+evaluation:
+
+```bash
+python GPT_runner.py \
+    --stage evaluate \
+    --model gpt-4o \
+    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
+    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
+    --predictions-file outputs/gpt4o/predictions.jsonl \
+    --report-dir outputs/gpt4o/report
+```
+
