@@ -175,6 +175,8 @@ def build_mcq_prompt(item):
         f"{question}\n\n"
         f"{options_text}\n\n"
         "Answer the question by selecting the correct option. "
+        # "Please note that there might be questions with (1) mismatched modalities, (2) incorrect premises, (3) false suggestions."
+        # "In cases like these, please select the proper option that reflects the situation."
         "Respond with only the option letter."
     )
 
