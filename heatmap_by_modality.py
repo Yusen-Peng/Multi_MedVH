@@ -141,7 +141,7 @@ plt.savefig(
 )
 
 plt.savefig(
-    "modality_heatmap.png",
+    "results/modality_heatmap.png",
     dpi=300,
     bbox_inches="tight",
 )

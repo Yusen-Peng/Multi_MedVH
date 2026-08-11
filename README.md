@@ -1,5 +1,33 @@
 # MultiMed
 
+## GPT-4o
+
+inference:
+
+```bash
+# set the API key first
+export OPENAI_API_KEY="sk-..."
+python GPT_runner.py \
+    --stage inference \
+    --model gpt-4o \
+    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
+    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
+    --predictions-file outputs/gpt4o/predictions.jsonl \
+    --report-dir outputs/gpt4o/report
+```
+
+evaluation:
+
+```bash
+python GPT_runner.py \
+    --stage evaluate \
+    --model gpt-4o \
+    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
+    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
+    --predictions-file outputs/gpt4o/predictions.jsonl \
+    --report-dir outputs/gpt4o/report
+```
+
 ## LLaVA models
 
 ### LLaVA-1.5-7B
@@ -270,31 +298,23 @@ python MedGemma_runner.py \
 ```
 
 
-## GPT-4o
+## Results
 
-inference:
 
-```bash
-# set the API key first
-export OPENAI_API_KEY="sk-..."
-python GPT_runner.py \
-    --stage inference \
-    --model gpt-4o \
-    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
-    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
-    --predictions-file outputs/gpt4o/predictions.jsonl \
-    --report-dir outputs/gpt4o/report
-```
+Accuracy-model size tradeoff:
 
-evaluation:
+![alt text](results/accuracy_vs_parameters.png)
 
-```bash
-python GPT_runner.py \
-    --stage evaluate \
-    --model gpt-4o \
-    --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
-    --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
-    --predictions-file outputs/gpt4o/predictions.jsonl \
-    --report-dir outputs/gpt4o/report
-```
+
+Heatmap by modality/question type:
+
+| by modality | by question type |
+| ----------- | ---------------- |
+| ![alt text](results/modality_heatmap.png) |  |
+
+
+General-Purpose v.s. Domain finetuned models:
+
+![alt text](results/general_vs_medical.png)
+
 

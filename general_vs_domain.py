@@ -152,6 +152,12 @@ plt.savefig(
     bbox_inches="tight",
 )
 
+plt.savefig(
+    "results/general_vs_medical.png",
+    dpi=300,
+    bbox_inches="tight",
+)
+
 
 
 plt.show()
