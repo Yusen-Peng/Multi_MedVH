@@ -29,7 +29,7 @@ modality_order = [
 
 question_type_order = [
     "baseline",
-    "mismatch",
+    "modality_mismatch",
     "incorrect_premise",
     "false_suggestions",
 ]

@@ -1,7 +1,7 @@
-modality,baseline,mismatch,incorrect_premise,false_suggestions,Total
-CT,19,0,2,0,21
-MRI,32,0,8,0,40
-CXR,43,0,0,0,43
-ECG,67,0,10,0,77
-Pathology,38,0,0,0,38
-Total,199,0,20,0,219
+modality,baseline,modality_mismatch,incorrect_premise,false_suggestions,Total
+CT,19,17,6,0,42
+MRI,32,8,13,0,53
+CXR,43,8,13,0,64
+ECG,67,12,24,0,103
+Pathology,38,9,1,0,48
+Total,199,54,57,0,310

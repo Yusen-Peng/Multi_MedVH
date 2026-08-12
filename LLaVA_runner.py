@@ -34,7 +34,7 @@ from models.llava.utils import disable_torch_init
 
 QUESTION_TYPE_ORDER = [
     "baseline",
-    "mismatch",
+    "modality_mismatch",
     "incorrect_premise",
     "false_suggestions",
 ]
@@ -135,7 +135,7 @@ def normalize_question_type(question_type):
         "false_suggestions": "false_suggestions",
         "incorrect_premise": "incorrect_premise",
         "baseline": "baseline",
-        "mismatch": "mismatch",
+        "modality_mismatch": "modality_mismatch"
     }
 
     return aliases.get(value, value)

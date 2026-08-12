@@ -3365,6 +3365,776 @@
         },
         "correct_answer": "D",
         "modality": "ECG"
+    },
+    {
+        "question_id": "pathvqa-test-000002-IP",
+        "image_path": "Pathology_images/pathvqa-test-000002.jpg",
+        "question": "Which region of the kidney tissue shows the most prominent histological changes?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "cortex",
+            "B": "medulla",
+            "C": "renal pelvis",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_001",
+        "image_path": "CT_images/HCC_0001.jpg",        
+        "question": "Classify the ECG, which abnormal behavior is demonstrated in the ECG image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "Arrhythmias",
+            "B": "atrial fibrillation",
+            "C": "ventricular tachycardia",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },        
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_002",
+        "image_path": "Pathology_images/pathvqa-test-000001.jpg",
+        "question": "Which organ contains tumor?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "liver",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "lung",
+            "D": "right kidney"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_003",
+        "image_path": "CT_images/000109 (4).png",
+        "question": "What abnormal behavior is present on this ECG",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "complete atrioventricular block",
+            "B": "ventricular tachycardia",
+            "C": "atrial fibrillation",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_004",
+        "image_path": "ECG_images/000002_code15-576019.png",
+        "question": "What abnormal behavior is present on the liver",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "hepatocellular carcinoma",
+            "B": "hepatic steatosis",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "hemangioma"
+        },
+        "correct_answer": "C",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_005",
+        "image_path": "CT_images/1-001.jpg",
+        "question": "Classify the ECG, which abnormal behavior is demonstrated in the ECG image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "arrhythmias",
+            "B": "atrial fibrillation",
+            "C": "ventricular tachycardia",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_006",
+        "image_path": "ECG_images/000005_code15-891510.png",
+        "question": "What abnormal behavior is present on the lung",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "adenocarcinoma",
+            "B": "squamous cell carcinoma",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "pneumothorax"
+        },
+        "correct_answer": "C",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_007",
+        "image_path": "CT_images/001_000.png",
+        "question": "Which tissue or organ is represented in this histopathology image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "liver",
+            "C": "lung",
+            "D": "pancreas"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_008",
+        "image_path": "Pathology_images/pathvqa-test-000002.jpg",
+        "question": "Where is the opacity predominantly located on this chest x ray?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "right upper lung",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "left upper lung",
+            "D": "right lower lung"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_009",
+        "image_path": "CT_images/2 - Copy - Copy.png",
+        "question": "In this ECG, which group of leads is the major abnormality most prominent?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "inferior leads",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "lteral leads",
+            "D": "aterior/precordial leads"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_010",
+        "image_path": "CXR_images/000000_7afe7d6b62fec4f70b09008b9ada0fd7.jpg",
+        "question": "Which architectural pattern is most evident in the image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "glandular formation",
+            "B": "papillary architecture",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "solid sheets of cells"
+        },
+        "correct_answer": "C",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "Mismatch_Question_011",
+        "image_path": "CXR_images/000000_7afe7d6b62fec4f70b09008b9ada0fd7.jpg",
+        "question": "Which portion of the kidney contains the tumor on this CT image",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "upper pole",
+            "B": "mid pole",
+            "C": "lower pole",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "Mismatch_Question_012",
+        "image_path": "CT_images/1-img-00004-00085.jpg",
+        "question": "Which abnormality is most evident on this chest radiograph?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "cardiomegaly",
+            "B": "pneumothorax",
+            "C": "pulmonary opacity",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_013",
+        "image_path": "CXR_images/000005_1a690f48bc8212140e1318412c558a6a.jpg",
+        "question": "What is the pancreatic abnormality in the CT image",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "pancreatic cancer",
+            "C": "solid pancreatic mass",
+            "D": "cystic pancreatic lesion"
+        },
+        "correct_answer": "A",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "Mismatch_Question_014",
+        "image_path": "CXR_images/000005_1a690f48bc8212140e1318412c558a6a.jpg",
+        "question": "In which lung is the abnormality predominantly located on this CT image",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "right lung",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "both lung",
+            "D": "left lung"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "Mismatch_Question_015",
+        "image_path": "CXR_images/000010_59463dec11bd9627f875e0372d9ce1e2.jpg",
+        "question": "In which group of leads is the major abnormality most prominent on this ECG?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "inferior leads",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "lateral leads",
+            "D": "anterior/precordial leads"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "Mismatch_Question_016",
+        "image_path": "ECG_images/000032_code15-610643.png",
+        "question": "Which kidney contains the visible tumor on this CT",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "right kidney",
+            "B": "both kidney",
+            "C": "left kidney",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_017",
+        "image_path": "CT_images/011_000.png",
+        "question": "Which abnormality is most evident on this chest radiograph?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "cardiomegaly",
+            "C": "pneumothorax",
+            "D": "pulmonary opacity"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_018",
+        "image_path": "CT_images/HCC_0016.jpg",
+        "question": "The ECG is consistent with acute myocardial infarction, which region is most likely involved?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "anterior",
+            "C": "lateral",
+            "D": "posterior"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_019",
+        "image_path": "CT_images/Cyst- (1).jpg",
+        "question": "Which description best fits the tissue morphology?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "features suspicious for malignancy",
+            "B": "predominantly benign-appearing",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "purely inflammatory"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_020",
+        "image_path": "ECG_images/000031_code15-1227749.png",
+        "question": "Which organ contains tumor?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "liver",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "pancrea",
+            "D": "right lung"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_021",
+        "image_path": "CT_images/HCC_0017.jpg",
+        "question": "Is pulmonary opacity visible in the right upper lung on this chest radiograph",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "yes",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "no",
+            "D": "on in the left lung"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_022",
+        "image_path": "ECG_images/000012_code15-2966620.png",
+        "question": "What is the dominant pancreatic abnormality in the CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "cystic pancreatic lesion",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "pancreatic carcinoma",
+            "D": "pancreatic calcification"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_023",
+        "image_path": "ECG_images/000012_code15-2966620.png",
+        "question": "Where is the opacity predominantly located on this chest x ray?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "left lung",
+            "C": "both lungs",
+            "D": "right lung"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_024",
+        "image_path": "Pathology_images/pathvqa-test-000021.jpg",
+        "question": "The abnormality is primarily centered in which organ on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "liver",
+            "B": "stomach",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "brain"
+        },
+        "correct_answer": "C",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_025",
+        "image_path": "Pathology_images/pathvqa-test-000022.jpg",
+        "question": "Which abnormality is most evident on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "hepatocellular carcinoma",
+            "B": "angiosarcoma",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "hemangioma"
+        },
+        "correct_answer": "C",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_026",
+        "image_path": "CXR_images/000012_b0d240b51e6f6bd1c138e62aebb14b07.jpg",
+        "question": "In which lung is the abnormality predominantly located? on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "right lung",
+            "B": "both lung",
+            "C": "left lung",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "Mismatch_Question_027",
+        "image_path": "Pathology_images/pathvqa-test-000020.jpg",
+        "question": "Which organ contains the abnormality on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "spleen",
+            "C": "liver",
+            "D": "pancreas"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_028",
+        "image_path": "Pathology_images/pathvqa-test-000028.jpg",
+        "question": "Which anatomical structure is indicated by the lesion shown in this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "liver",
+            "C": "gallbladder",
+            "D": "stomach"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_029",
+        "image_path": "CT_images/1-021.jpg",
+        "question": "How would the ventricular rate best be classified on this ECG?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "Bradycardic",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "Tachycardic",
+            "D": "atrial fibrillation"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_030",
+        "image_path": "ECG_images/000003_code15-1517409.png",
+        "question": "Which kidney contains the visible lesion on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "right kidney",
+            "C": "left kidney",
+            "D": "both kidney"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_031",
+        "image_path": "ECG_images/000013_code15-3140371.png",
+        "question": "Which description best fits the tissue morphology on this image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "predominantly benign-appearing",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "features suspicious for malignancy",
+            "D": "purely inflammatory"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_032",
+        "image_path": "MRI_images/radimagenet-vqa-test-000011.jpg",
+        "question": "Is a prominent inflammatory infiltrate visible?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "yes",
+            "B": "no",
+            "C": "only within blood vessels",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_033",
+        "image_path": "MRI_images/radimagenet-vqa-test-000012.jpg",
+        "question": "Which conduction abnormality is most consistent with the ECG morphology?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "right bundle branch block",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "left bundle branch block",
+            "D": "no conduction abnormality"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_034",
+        "image_path": "CT_images/radimagenet-vqa-test-000039.jpg",
+        "question": "Which abnormality is most evident on this chest x-ray?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "cardiomegaly",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "pulmonary opacity",
+            "D": "pneumothorax"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_035",
+        "image_path": "CXR_images/000041_10686e7ea44bdd90fb5c73759ce2ae8f.jpg",
+        "question": "What is the predominant cardiac rhythm shown in this ECG?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "atrial fibrillation",
+            "B": "atrial flutter",
+            "C": "ventricular tachycardia",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "Mismatch_Question_036",
+        "image_path": "ECG_images/000014_code15-366275.png",
+        "question": "Where is the opacity predominantly located?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "right upper lung",
+            "C": "left upper lung",
+            "D": "right lower lung"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_037",
+        "image_path": "CXR_images/000040_a751b16e4a8cfa7956561dea5bf0cbb3.jpg",
+        "question": "Which portion of the pancreas contains the lesion on this CT image",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "tail",
+            "C": "head",
+            "D": "body"
+        },
+        "correct_answer": "A",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "Mismatch_Question_038",
+        "image_path": "MRI_images/radimagenet-vqa-test-000083.jpg",
+        "question": "Which structure is indicated by the abnormal cellular proliferation?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "glandular epithelium",
+            "B": "vascular lumen",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "adipose tissue"
+        },
+        "correct_answer": "C",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_039",
+        "image_path": "Pathology_images/pathvqa-test-000008.jpg",
+        "question": "Which hepatic region contains the lesion",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "right hepatic lobe",
+            "C": "left hepatic lobe",
+            "D": "both lobes"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_040",
+        "image_path": "CT_images/radimagenet-vqa-test-000159.jpg",
+        "question": "Which tissue or organ is represented in this histopathology image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "liver",
+            "B": "lung",
+            "C": "pancrea",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_041",
+        "image_path": "CT_images/1-056.jpg",
+        "question": "Where is the opacity predominantly located on this chest X-ray?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "right lower lung",
+            "C": "left lower lung",
+            "D": "right upper lung"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_042",
+        "image_path": "ECG_images/000015_code15-426842.png",
+        "question": "Which kidney contains the visible tumor on this CT image",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "left kidney",
+            "B": "right kidney",
+            "C": "both kidney",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_043",
+        "image_path": "MRI_images/1263.jpg",
+        "question": "What abnormal behavior is present on the liver on this CT image",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "cholangiocarcinoma",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "hepatocellular carcinoma",
+            "D": "hemangioma"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_044",
+        "image_path": "ECG_images/000016_code15-1271302.png",
+        "question": "What abnormal behavior is present on the brain MRI scan",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "glioma",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "meningioma",
+            "D": "pituitary adenoma"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_045",
+        "image_path": "MRI_images/1054.jpg",
+        "question": "Is tumor necrosis visible in the image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "yes",
+            "C": "no",
+            "D": "only hemorrhage is present"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_046",
+        "image_path": "MRI_images/41 no.jpg",
+        "question": "Which structure is indicated by the abnormal cellular proliferation?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "vascular lumen",
+            "B": "adipose tissue",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "connective tissue stroma"
+        },
+        "correct_answer": "C",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_047",
+        "image_path": "CT_images/radimagenet-vqa-test-000081.jpg",
+        "question": "How would the QRS complexes best be described on this ECG",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "narrow",
+            "B": "broad",
+            "C": "alternating narrow and broad",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_048",
+        "image_path": "ECG_images/000019_code15-4202916.png",
+        "question": "Which anatomical structure is indicated by the lesion shown in this CT image",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "liver",
+            "C": "spleen",
+            "D": "pancreas"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_049",
+        "image_path": "Pathology_images/pathvqa-test-000018.jpg",
+        "question": "Which abnormality is most evident on this brain MRI?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "glioma",
+            "C": "meningioma",
+            "D": "pituitary adenoma"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_050",
+        "image_path": "Pathology_images/pathvqa-test-000016.jpg",
+        "question": "Which organ contains tumor on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "liver",
+            "B": "lungs",
+            "C": "brain",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_051",
+        "image_path": "MRI_images/1206.jpg",
+        "question": "Which ECG rhythm is present?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "ventricular tachycardia",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "atrial fibrillation",
+            "D": "normal sinus rhythm"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_052",
+        "image_path": "CT_images/7-img-00008-00044.jpg",
+        "question": "On which side is the pulmonary abnormality predominantly located on this chest x-ray?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "left lung",
+            "C": "right lung",
+            "D": "both lungs"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_053",
+        "image_path": "CT_images/000116 (7).png",
+        "question": "How would the ventricular rate best be classified",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "bradycardic",
+            "C": "tachycardic",
+            "D": "normal"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_054",
+        "image_path": "MRI_images/1050.jpg",
+        "question": "Where is the opacity predominantly located on this chest X-ray?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "left lower lung",
+            "B": "right upper lung",
+            "C": "left upper lung",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
     }
 
 

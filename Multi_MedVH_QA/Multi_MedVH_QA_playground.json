@@ -1,44 +1,6 @@
 [
 
     {
-        "question_id": "pathvqa-test-000000",
-        "image_path": "Pathology_images/pathvqa-test-000000.jpg",
-        "question": "does this image show trachea, necrotizing tracheitis?",
-        "question_type": "baseline",
-        "options": {
-            "A": "yes",
-            "B": "no"
-        },
-        "correct_answer": "A",
-        "modality": "pathology"
-    },
-    {
-        "question_id": "pathvqa-test-000001",
-        "image_path": "Pathology_images/pathvqa-test-000001.jpg",
-        "question": "is vasculature present?",
-        "question_type": "baseline",
-        "options": {
-            "A": "yes",
-            "B": "no"
-        },
-        "correct_answer": "A",
-        "modality": "pathology"
-    },
-    {
-        "question_id": "pathvqa-test-000002",
-        "image_path": "Pathology_images/pathvqa-test-000002.jpg",
-        "question": "what is present?",
-        "question_type": "baseline",
-        "options": {
-            "A": "liver",
-            "B": "lung",
-            "C": "kidney",
-            "D": "heart"
-        },
-        "correct_answer": "A",
-        "modality": "pathology"
-    },
-    {
         "question_id": "pathvqa-test-000003",
         "image_path": "Pathology_images/pathvqa-test-000003.jpg",
         "question": "what does this image show?",
