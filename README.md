@@ -40,7 +40,8 @@ CUDA_VISIBLE_DEVICES=0 taskset -c 11-20 python LLaVA_runner.py \
     --model-path liuhaotian/llava-v1.5-7b \
     --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
     --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
-    --predictions-file outputs/llava15_7b.jsonl \
+    --predictions-file outputs/llava15_7b/predictions.jsonl \
+    --report-dir outputs/llava15_7b/report \
     --temperature 0
 ```
 
@@ -52,7 +53,8 @@ CUDA_VISIBLE_DEVICES=0 taskset -c 11-20 python LLaVA_runner.py \
     --model-path liuhaotian/llava-v1.5-7b \
     --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
     --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
-    --predictions-file outputs/llava15_7b.jsonl \
+    --predictions-file outputs/llava15_7b/predictions.jsonl \
+    --report-dir outputs/llava15_7b/report \
     --temperature 0
 ```
 
@@ -67,7 +69,8 @@ CUDA_VISIBLE_DEVICES=0 taskset -c 11-20 python LLaVA_runner.py \
     --model-path liuhaotian/llava-v1.5-13b \
     --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
     --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
-    --predictions-file outputs/llava15_13b.jsonl \
+    --predictions-file outputs/llava15_13b/predictions.jsonl \
+    --report-dir outputs/llava15_13b/report \
     --temperature 0
 ```
 
@@ -79,7 +82,8 @@ CUDA_VISIBLE_DEVICES=0 taskset -c 11-20 python LLaVA_runner.py \
     --model-path liuhaotian/llava-v1.5-13b \
     --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
     --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
-    --predictions-file outputs/llava15_13b.jsonl \
+    --predictions-file outputs/llava15_13b/predictions.jsonl \
+    --report-dir outputs/llava15_13b/report \
     --temperature 0
 ```
 
@@ -93,7 +97,8 @@ CUDA_VISIBLE_DEVICES=0 taskset -c 11-20 python LLaVA_runner.py \
     --model-path microsoft/llava-med-v1.5-mistral-7b \
     --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
     --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
-    --predictions-file outputs/llava_med15_7b.jsonl \
+    --predictions-file outputs/llava_med15_7b/predictions.jsonl \
+    --report-dir outputs/llava_med15_7b/report \
     --temperature 0
 ```
 
@@ -105,7 +110,8 @@ CUDA_VISIBLE_DEVICES=0 taskset -c 11-20 python LLaVA_runner.py \
     --model-path microsoft/llava-med-v1.5-mistral-7b \
     --question-file /data/yusenp/Multi_MedVH/Multi_MedVH_QA/Multi_MedVH_QA.json \
     --image-folder /data/yusenp/Multi_MedVH/Multi_MedVH_QA \
-    --predictions-file outputs/llava_med15_7b.jsonl \
+    --predictions-file outputs/llava_med15_7b/predictions.jsonl \
+    --report-dir outputs/llava_med15_7b/report \
    --temperature 0
 ```
 

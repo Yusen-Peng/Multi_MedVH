@@ -4135,6 +4135,132 @@
         },
         "correct_answer": "D",
         "modality": "MRI"
+    },
+    {
+        "question_id": "code15-1109348-FS",
+        "image_path": "ECG_images/000000_code15-1109348.png",
+        "question": "This ECG shows an abnormal cardiac rhythm. Which component of the ECG is primarily associated with ventricular depolarization?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "P wave",
+            "B": "QRS complex",
+            "C": "T wave",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-944269-FS",
+        "image_path": "ECG_images/000001_code15-944269.png",
+        "question": "This ECG demonstrates an abnormality in ventricular activity. Which component of the ECG represents atrial depolarization?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "P wave",
+            "B": "QRS complex",
+            "C": "T wave",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000002-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000002.jpg",
+        "question": "This CT image shows the lumbar spine. What type of anatomical structure is primarily visible in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "bone",
+            "B": "lung",
+            "C": "brain",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000018-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000018.jpg",
+        "question": "This CT scan shows a lung nodule in the right upper lobe. Which organ occupies most of the visible thoracic cavity?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "lungs",
+            "B": "liver",
+            "C": "kidneys",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000019-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000019.jpg",
+        "question": "This MRI image shows a scoliotic curvature of the spine. Which anatomical plane is shown in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "sagittal",
+            "B": "coronal",
+            "C": "axial",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000021-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000021.jpg",
+        "question": "This MRI image shows the shoulder joint. Which type of tissue appears most prominently in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "bone",
+            "B": "skeletal muscle",
+            "C": "adipose tissue",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "6_2e02414c9f4b2b23a7761fe8c2b3bc93-FS",
+        "image_path": "CXR_images/000019_2e02414c9f4b2b23a7761fe8c2b3bc93.jpg",
+        "question": "This chest X-ray shows prominent cardiac calcification. Which anatomical structure occupies the central portion of the thorax?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "heart",
+            "B": "right lung",
+            "C": "left lung",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "1_aca2dc4418182356911b47ede407b1da-FS",
+        "image_path": "CXR_images/000025_aca2dc4418182356911b47ede407b1da.jpg",
+        "question": "This chest X-ray demonstrates a pleural effusion. Which structure forms the central cardiovascular silhouette in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "heart",
+            "B": "diaphragm",
+            "C": "lung apex",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "pathvqa-test-000002-FS",
+        "image_path": "Pathology_images/pathvqa-test-000002.jpg",
+        "question": "This histological image shows prominent pathological changes in the kidney tissue. Which type of structure can be identified in the tissue?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "glomeruli",
+            "B": "renal tubules",
+            "C": "blood vessels",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
     }
 
 
