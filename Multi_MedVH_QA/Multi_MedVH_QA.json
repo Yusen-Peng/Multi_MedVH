@@ -4261,6 +4261,664 @@
         },
         "correct_answer": "D",
         "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_055",
+        "image_path": "CT_images/4-img-00005-00249.jpg",
+        "question": "Which T-wave abnormality is most apparent on this ECG",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "t-wave inversion",
+            "C": "tall peaked T waves",
+            "D": "flattened T waves"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_056",
+        "image_path": "ECG_images/000017_code15-3021833.png",
+        "question": "What is the appearance of the fat surrounding the pancreas on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "mildly striated",
+            "B": "markedly inflamed/stranded",
+            "C": "replaced by a fluid collection",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_057",
+        "image_path": "ECG_images/000023_code15-1758499.png",
+        "question": "How do the kidneys compare in size on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "approximately symmetric",
+            "B": "left kidney is enlarged",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "right kidney is enlarged"
+        },
+        "correct_answer": "C",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_058",
+        "image_path": "MRI_images/radimagenet-vqa-test-000058.jpg",
+        "question": "What is the position of the mediastinum on this chest X-ray?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "midline",
+            "B": "shifted to the right",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "shifted to the left"
+        },
+        "correct_answer": "C",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_059",
+        "image_path": "Pathology_images/pathvqa-test-000023.jpg",
+        "question": "What is the dominant pancreatic abnormality in the CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "solid pancreatic mass",
+            "C": "pancreatic calcification",
+            "D": "pancreatic carcinoma"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_060",
+        "image_path": "Pathology_images/pathvqa-test-000010.jpg",
+        "question": "Which anatomical structure is indicated by the lesion shown in this CT image",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "spleen",
+            "C": "liver",
+            "D": "lungs"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_061",
+        "image_path": "CT_images/radimagenet-vqa-test-000122.jpg",
+        "question": "Is pulmonary opacity visible in the right upper lung on this chest X-ray?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "yes",
+            "B": "no",
+            "C": "only on the left lung",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_062",
+        "image_path": "ECG_images/000044_code15-1528202.png",
+        "question": "What is occurring at the interface between the abnormal cells and surrounding tissue?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "well-circumscribed border",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "fibrous capsule formation",
+            "D": "infiltrative growth"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_063",
+        "image_path": "ECG_images/000045_code15-176170.png",
+        "question": "Which stromal feature is most prominent around the abnormal cells?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "dense fibrosis",
+            "B": "edema",
+            "C": "inflammatory infiltrate",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_064",
+        "image_path": "CT_images/HCC_0098.jpg",
+        "question": "What evidence of cardiac pacing is visible on this ECG?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "atrial pacing only",
+            "B": "dual-chamber pacing",
+            "C": "ventricular pacing only",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_065",
+        "image_path": "CT_images/000132.png",
+        "question": "What best describes the relationship between atrial and ventricular activity on this ECG?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "atrial and ventricular activity are dissociated",
+            "B": "some P waves fail to conduct",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "each P wave conducts normally to a QRS complex"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_066",
+        "image_path": "MRI_images/1240.jpg",
+        "question": "What abnormal behavior is present this chest X-ray",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "pneumothorax",
+            "C": "pulmonary opacity",
+            "D": "large cell adenocarcinoma"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_067",
+        "image_path": "CXR_images/000075_c440f25216153cfc2bcf4af70c3d59c4.jpg",
+        "question": "What is the appearance of the liver surface on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "smooth",
+            "B": "nodular",
+            "C": "lobulated by a focal lesion",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "Mismatch_Question_068",
+        "image_path": "CXR_images/000077_bd6eb525438d6da1ced0ed1810857772.jpg",
+        "question": "What is the apparent mitotic activity in the displayed tissue?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "occasional mitotic figures",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "numerous mitotic figures",
+            "D": "no visible mitotic figures"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "Mismatch_Question_069",
+        "image_path": "CT_images/Cyst- (30).jpg",
+        "question": "Which cell population appears most abundant in the highlighted region?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "lymphocytes",
+            "C": "fibroblasts",
+            "D": "neutrophils"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_070",
+        "image_path": "MRI_images/1118.jpg",
+        "question": "Which side demonstrates evidence of urinary tract obstruction on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "bilateral",
+            "B": "left",
+            "C": "neither side",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_071",
+        "image_path": "Pathology_images/pathvqa-test-000033.jpg",
+        "question": "How would you characterize the ventricular rhythm on this ECG?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "regularly irregular",
+            "B": "irregularly irregular",
+            "C": "alternating between two fixed rates",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_072",
+        "image_path": "MRI_images/1107.jpg",
+        "question": "The abnormality is primarily centered in which organ on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "spleen",
+            "C": "pancrea",
+            "D": "right kidney"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_073",
+        "image_path": "MRI_images/radimagenet-vqa-test-000016.jpg",
+        "question": "What is the appearance of the fat surrounding the pancreas on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "mildly striated",
+            "B": "normal",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "replaced by a fluid collection"
+        },
+        "correct_answer": "C",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_074",
+        "image_path": "ECG_images/000039_code15-3175010.png",
+        "question": "How do the hilar regions appear on this chest X-ray?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "enlarged bilaterally",
+            "C": "enlarged predominantly on the right",
+            "D": "normal"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_075",
+        "image_path": "MRI_images/1231.jpg",
+        "question": "What is occurring at the interface between the abnormal cells and surrounding tissue?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "well-circumscribed border",
+            "B": "fibrous capsule formation",
+            "C": "infiltrative growth",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_076",
+        "image_path": "CT_images/000043.png",
+        "question": "How does the cardiac silhouette appear on this chest X-ray?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "enlarged",
+            "B": "abnormally small",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "normal in size"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_077",
+        "image_path": "ECG_images/000049_code15-2877665.png",
+        "question": "Which description best characterizes the pulmonary lesion on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "solid nodule",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "ground-glass opacity",
+            "D": "cavitary lesion"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_077b",
+        "image_path": "CXR_images/000050_a7e65af70639bcbe5abc17ed529ab765.jpg",
+        "question": "Is tumor necrosis visible in the image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "yes",
+            "B": "no",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "only hemorrhage is present"
+        },
+        "correct_answer": "C",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "Mismatch_Question_078",
+        "image_path": "CT_images/radimagenet-vqa-test-000034.jpg",
+        "question": "Which tissue or organ is represented in this histopathology image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "lung",
+            "B": "pancrea",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "spleen"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_079",
+        "image_path": "MRI_images/1486.jpg",
+        "question": "What is the approximate electrical axis on this ECG?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "normal axis",
+            "C": "left axis deviation",
+            "D": "extreme axis deviation"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_080",
+        "image_path": "CXR_images/000039_a3106645d9ff642b102c1fae08356865.jpg",
+        "question": "The ECG is consistent with acute myocardial infarction, which region is most likely involved?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "anterior",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "lateral",
+            "D": "inferior"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "Mismatch_Question_081",
+        "image_path": "ECG_images/000065_code15-3125160.png",
+        "question": "What finding is present in the tissue surrounding the affected kidney on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "perinephric fat stranding",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "no obvious perinephric abnormality",
+            "D": "soft-tissue mass"
+        },
+        "correct_answer": "B",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_082",
+        "image_path": "ECG_images/000060_code15-2942933.png",
+        "question": "What abnormal behavior is present on the liver on this CT image",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "hepatocellular carcinoma",
+            "B": "angiosarcoma",
+            "C": "hepatic steatosis",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_083",
+        "image_path": "MRI_images/1141.jpg",
+        "question": "How does the PR interval appear on this ECG?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "prolonged",
+            "B": "shortened",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "normal"
+        },
+        "correct_answer": "C",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_084",
+        "image_path": "CT_images/c0486099-800px-wm.jpg",
+        "question": "What best describes the relationship between atrial and ventricular activity on this ECG?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "each P wave conducts normally to a QRS complex",
+            "B": "some P waves fail to conduct",
+            "C": "atrial and ventricular activity are dissociated",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_085",
+        "image_path": "Pathology_images/pathvqa-test-000012.jpg",
+        "question": "How does the costophrenic angle appear on this chest X-ray?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "sharp bilaterally",
+            "B": "blunted bilaterally",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "blunted on the left"
+        },
+        "correct_answer": "C",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_086",
+        "image_path": "CT_images/tension-pneumothorax-12 (1).png",
+        "question": "What is the position of the mediastinum on this chest X-ray?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "midline",
+            "C": "shifted to the left",
+            "D": "shifted to the right"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_087",
+        "image_path": "ECG_images/000081_code15-316048.png",
+        "question": "How would you characterize the nuclear-to-cytoplasmic ratio of the abnormal cells?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "low",
+            "C": "intermediate",
+            "D": "high"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_088",
+        "image_path": "ECG_images/000087_code15-1012596.png",
+        "question": "What is the appearance of the liver surface on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "smooth",
+            "B": "nodular",
+            "C": "lobulated by a focal lesion",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_089",
+        "image_path": "MRI_images/1149.jpg",
+        "question": "Which cell population appears most abundant in the highlighted region?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "epithelial cells",
+            "B": "neutrophils",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "fibroblasts"
+        },
+        "correct_answer": "C",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_090",
+        "image_path": "Pathology_images/pathvqa-test-000030.jpg",
+        "question": "How does R-wave progression across the precordial leads appear on this ECG?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "normal",
+            "B": "poor",
+            "C": "reversed",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_091",
+        "image_path": "CT_images/1-065.jpg",
+        "question": "How would you describe the glandular architecture?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "regular and well organized",
+            "B": "irregular and distorted",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "gland formation is absent"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_092",
+        "image_path": "CT_images/053_000.png",
+        "question": "Which T-wave abnormality is most apparent on this ECG?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "t-wave inversion",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "flattened T waves",
+            "D": "no significant T-wave abnormality"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_093",
+        "image_path": "MRI_images/1157.jpg",
+        "question": "What best describes the relationship between atrial and ventricular activity on this ECG?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "each P wave conducts normally to a QRS complex",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "progressive PR prolongation occurs",
+            "D": "Some P waves fail to conduct"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "Mismatch_Question_094",
+        "image_path": "Pathology_images/pathvqa-test-000037.jpg",
+        "question": "Which nearby structure is most closely associated with the pancreatic lesion on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "spleen",
+            "B": "stomach",
+            "C": "duodenum",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_095",
+        "image_path": "CT_images/088_000.png",
+        "question": "How are the abnormal cells predominantly arranged?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "glands",
+            "B": "sheets",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "papillary structures"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "Mismatch_Question_096",
+        "image_path": "Pathology_images/pathvqa-test-000042.jpg",
+        "question": "How would you characterize the lung volumes on this chest X-ray?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "low",
+            "B": "normal",
+            "C": "the provided image does not contain the information needed to answer this question",
+            "D": "asymmetric"
+        },
+        "correct_answer": "C",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "Mismatch_Question_097",
+        "image_path": "ECG_images/000203_code15-4209462.png",
+        "question": "Which description best matches the bowel appearance on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "normal caliber",
+            "B": "dilated bowel loops",
+            "C": "marked bowel compression",
+            "D": "the provided image does not contain the information needed to answer this question"
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "Mismatch_Question_098",
+        "image_path": "Pathology_images/pathvqa-test-000061.jpg",
+        "question": "What evidence of cardiac pacing is visible on this ECG?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "atrial pacing only",
+            "B": "the provided image does not contain the information needed to answer this question",
+            "C": "no pacing activity",
+            "D": "dual-chamber pacing"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
+    },
+        {
+        "question_id": "Mismatch_Question_099",
+        "image_path": "CXR_images/000200_070d372757bfbb0cee7d68fd50369fc4.jpg",
+        "question": "Which major hepatic vascular structure is closest to the lesion on this CT image?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "portal vein",
+            "C": "hepatic vein",
+            "D": "inferior vena cava"
+        },
+        "correct_answer": "A",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "Mismatch_Question_100",
+        "image_path": "Pathology_images/pathvqa-test-000072.jpg",
+        "question": "How is the pulmonary opacity distributed on this chest X-ray?",
+        "question_type": "modality_mismatch",
+        "options": {
+            "A": "the provided image does not contain the information needed to answer this question",
+            "B": "focal unilateral",
+            "C": "bilaterial",
+            "D": "multifocal unilateral"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
     }
 
 
