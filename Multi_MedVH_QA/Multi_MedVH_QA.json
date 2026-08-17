@@ -4919,6 +4919,622 @@
         },
         "correct_answer": "A",
         "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000003-IP",
+        "image_path": "Pathology_images/pathvqa-test-000003.jpg",
+        "question": "Which region of the kidney shows the most prominent histological features?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "renal cortex",
+            "B": "renal medulla",
+            "C": "renal pelvis",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000004-IP",
+        "image_path": "Pathology_images/pathvqa-test-000004.jpg",
+        "question": "Which pancreatic structure is most prominent in this histological section?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "pancreatic acini",
+            "B": "islets of Langerhans",
+            "C": "pancreatic ducts",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000005-IP",
+        "image_path": "Pathology_images/pathvqa-test-000005.jpg",
+        "question": "How are the thyroid follicles distributed across this tissue section?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "uniformly distributed",
+            "B": "predominantly peripheral",
+            "C": "predominantly central",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000006-IP",
+        "image_path": "Pathology_images/pathvqa-test-000006.jpg",
+        "question": "Which part of the pancreatic tissue occupies the largest area in this section?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "exocrine acini",
+            "B": "endocrine islets",
+            "C": "ductal structures",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000008-IP",
+        "image_path": "Pathology_images/pathvqa-test-000008.jpg",
+        "question": "Which histological feature of DiGeorge syndrome is most prominent in this specimen?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "lymphoid depletion",
+            "B": "reduced thymic tissue",
+            "C": "abnormal lobular architecture",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000011-IP",
+        "image_path": "Pathology_images/pathvqa-test-000011.jpg",
+        "question": "How extensive are the epithelial changes associated with the white sponge nevus?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "focal",
+            "B": "multifocal",
+            "C": "diffuse",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000012-IP",
+        "image_path": "Pathology_images/pathvqa-test-000012.jpg",
+        "question": "Which pancreatic structure is most prominent in this histological section?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "pancreatic acini",
+            "B": "islets of Langerhans",
+            "C": "pancreatic ducts",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000017-IP",
+        "image_path": "Pathology_images/pathvqa-test-000017.jpg",
+        "question": "How extensive are the pathological changes attributable to Wernicke's encephalopathy?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "focal",
+            "B": "multifocal",
+            "C": "diffuse",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000022-IP",
+        "image_path": "Pathology_images/pathvqa-test-000022.jpg",
+        "question": "Which cranial region is most affected by the anencephaly?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "frontal region",
+            "B": "parietal region",
+            "C": "occipital region",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000029-IP",
+        "image_path": "Pathology_images/pathvqa-test-000029.jpg",
+        "question": "Which external change from fetal maceration is most prominent in this specimen?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "skin slippage",
+            "B": "tissue discoloration",
+            "C": "soft-tissue breakdown",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000032-IP",
+        "image_path": "Pathology_images/pathvqa-test-000032.jpg",
+        "question": "How are the large, flat epithelial cells distributed relative to the primitive tubules?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "predominantly around the tubules",
+            "B": "interspersed between the tubules",
+            "C": "clustered away from the tubules",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000038-IP",
+        "image_path": "Pathology_images/pathvqa-test-000038.jpg",
+        "question": "Which region of the liver is represented by this histological section?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "periportal region",
+            "B": "centrilobular region",
+            "C": "midzonal region",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000039-IP",
+        "image_path": "Pathology_images/pathvqa-test-000039.jpg",
+        "question": "Which layer of the gastrointestinal tract is most prominent in this histological section?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "mucosa",
+            "B": "submucosa",
+            "C": "muscularis propria",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000041-IP",
+        "image_path": "Pathology_images/pathvqa-test-000041.jpg",
+        "question": "How extensively have the cysts from the polycystic disease replaced the normal tissue?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "focally",
+            "B": "multifocally",
+            "C": "diffusely",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000043-IP",
+        "image_path": "Pathology_images/pathvqa-test-000043.jpg",
+        "question": "Which hepatic region is represented in this specimen?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "periportal region",
+            "B": "midzonal region",
+            "C": "centrilobular region",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000044-IP",
+        "image_path": "Pathology_images/pathvqa-test-000044.jpg",
+        "question": "Which region of the benign cystic teratoma contains the Dr Garcia tumors 15 finding?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "cyst wall",
+            "B": "central region",
+            "C": "peripheral region",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000049-IP",
+        "image_path": "Pathology_images/pathvqa-test-000049.jpg",
+        "question": "How severe is the saphenous vein graft sclerosis within the retroperitoneal liposarcoma specimen?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "mild",
+            "B": "moderate",
+            "C": "severe",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000051-IP",
+        "image_path": "Pathology_images/pathvqa-test-000051.jpg",
+        "question": "Which region of the adrenal gland is represented in this histological section?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "cortex",
+            "B": "medulla",
+            "C": "corticomedullary junction",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000052-IP",
+        "image_path": "Pathology_images/pathvqa-test-000052.jpg",
+        "question": "Which gastrointestinal layer contributes most to the tissue seen here?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "mucosa",
+            "B": "submucosa",
+            "C": "muscularis propria",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000053-IP",
+        "image_path": "Pathology_images/pathvqa-test-000053.jpg",
+        "question": "How are the bone marrow cells distributed across this specimen?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "predominantly central",
+            "B": "predominantly peripheral",
+            "C": "diffusely throughout",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000054-IP",
+        "image_path": "Pathology_images/pathvqa-test-000054.jpg",
+        "question": "How widely are the pseudopolyps from chronic ulcerative colitis distributed throughout the colon?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "focally",
+            "B": "segmentally",
+            "C": "diffusely",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "6_e29eceb0a991c17d07de2fe27a8ddf44-IP",
+        "image_path": "CXR_images/000037_e29eceb0a991c17d07de2fe27a8ddf44.jpg",
+        "question": "What is the distribution of the pulmonary fibrosis in the right middle lung?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "predominantly central",
+            "B": "predominantly peripheral",
+            "C": "diffuse",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_a751b16e4a8cfa7956561dea5bf0cbb3-IP",
+        "image_path": "CXR_images/000040_a751b16e4a8cfa7956561dea5bf0cbb3.jpg",
+        "question": "Where is the pneumonia most prominent within the left lower lung?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "medial region",
+            "B": "central region",
+            "C": "peripheral region",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_10686e7ea44bdd90fb5c73759ce2ae8f-IP",
+        "image_path": "CXR_images/000041_10686e7ea44bdd90fb5c73759ce2ae8f.jpg",
+        "question": "How much of the left lower lung is affected by the pleural effusion?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "a small portion",
+            "B": "approximately half",
+            "C": "most of the region",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_774c1ca3798d3054ac1a413570e665c9-IP",
+        "image_path": "CXR_images/000042_774c1ca3798d3054ac1a413570e665c9.jpg",
+        "question": "What are the margins of the mass in the left lower lung?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "well-defined",
+            "B": "partially defined",
+            "C": "poorly defined",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "1_3080ba6fdba05ff8e001a1f4582e8d56-IP",
+        "image_path": "CXR_images/000043_3080ba6fdba05ff8e001a1f4582e8d56.jpg",
+        "question": "How extensive is the pneumothorax adjacent to the aortic contour?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "small",
+            "B": "moderate",
+            "C": "large",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "1_23c9516db65572bae3125bcaead302d3-IP",
+        "image_path": "CXR_images/000046_23c9516db65572bae3125bcaead302d3.jpg",
+        "question": "Where is the ventricular septal defect located relative to the cardiac silhouette?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "upper cardiac region",
+            "B": "central cardiac region",
+            "C": "lower cardiac region",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "7_a01c58a18c2382adada9aea189097614-IP",
+        "image_path": "CXR_images/000047_a01c58a18c2382adada9aea189097614.jpg",
+        "question": "What is the distribution of the interstitial lung disease around the cardiac silhouette?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "predominantly right-sided",
+            "B": "predominantly left-sided",
+            "C": "bilateral",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "1_2e02414c9f4b2b23a7761fe8c2b3bc93-IP",
+        "image_path": "CXR_images/000048_2e02414c9f4b2b23a7761fe8c2b3bc93.jpg",
+        "question": "Where is the atrial septal defect located within the cardiac silhouette?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "upper cardiac region",
+            "B": "central cardiac region",
+            "C": "lower cardiac region",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "3_3c7f79f9a904282f9dbe9b625216cffc-IP",
+        "image_path": "CXR_images/000049_3c7f79f9a904282f9dbe9b625216cffc.jpg",
+        "question": "How extensive is the pulmonary fibrosis surrounding the cardiac silhouette?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "focal",
+            "B": "multifocal",
+            "C": "diffuse",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "0_5afdc4e7edfdefd26c0c8381ac79b358-IP",
+        "image_path": "CXR_images/000051_5afdc4e7edfdefd26c0c8381ac79b358.jpg",
+        "question": "What is the distribution of the calcification in the right upper lung?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "predominantly medial",
+            "B": "predominantly central",
+            "C": "predominantly peripheral",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "9_f40c08b38fce6f2b77c6019d34521357-IP",
+        "image_path": "CXR_images/000058_f40c08b38fce6f2b77c6019d34521357.jpg",
+        "question": "How much volume loss is associated with the atelectasis in the right middle lung?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "mild",
+            "B": "moderate",
+            "C": "severe",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000040-IP",
+        "image_path": "MRI_images/radimagenet-vqa-test-000040.jpg",
+        "question": "Which region of the spine is captured in this MRI?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "cervical spine",
+            "B": "thoracic spine",
+            "C": "lumbar spine",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000042-IP",
+        "image_path": "CT_images/radimagenet-vqa-test-000042.jpg",
+        "question": "Which portion of the brain is most prominently visualized in this CT scan?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "frontal region",
+            "B": "parietal region",
+            "C": "posterior fossa",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000043-IP",
+        "image_path": "MRI_images/radimagenet-vqa-test-000043.jpg",
+        "question": "Which part of the hip joint is centered in this MRI?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "femoral head",
+            "B": "femoral neck",
+            "C": "acetabulum",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000046-IP",
+        "image_path": "MRI_images/radimagenet-vqa-test-000046.jpg",
+        "question": "Which part of the hip is best visualized in this MRI?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "femoral head",
+            "B": "femoral neck",
+            "C": "acetabulum",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000048-IP",
+        "image_path": "CT_images/radimagenet-vqa-test-000048.jpg",
+        "question": "Which segment of the spine is most clearly visualized in this CT image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "cervical segment",
+            "B": "thoracic segment",
+            "C": "lumbar segment",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000049-IP",
+        "image_path": "CT_images/radimagenet-vqa-test-000049.jpg",
+        "question": "Which part of the abdomen is captured in this CT scan?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "upper abdomen",
+            "B": "mid abdomen",
+            "C": "lower abdomen",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000051-IP",
+        "image_path": "MRI_images/radimagenet-vqa-test-000051.jpg",
+        "question": "Which portion of the spine is most clearly visualized in this MRI?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "cervical spine",
+            "B": "thoracic spine",
+            "C": "lumbar spine",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000052-IP",
+        "image_path": "CT_images/radimagenet-vqa-test-000052.jpg",
+        "question": "How large is the pulmonary nodule relative to the surrounding lung tissue?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "small",
+            "B": "moderate",
+            "C": "large",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000055-IP",
+        "image_path": "MRI_images/radimagenet-vqa-test-000055.jpg",
+        "question": "Which part of the Lisfranc joint complex is most affected by the injury?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "medial region",
+            "B": "central region",
+            "C": "lateral region",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000056-IP",
+        "image_path": "CT_images/radimagenet-vqa-test-000056.jpg",
+        "question": "Which portion of the knee joint is centered in this CT scan?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "femoral condyles",
+            "B": "tibial plateau",
+            "C": "patellofemoral region",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000057-IP",
+        "image_path": "MRI_images/radimagenet-vqa-test-000057.jpg",
+        "question": "Where are the white matter changes most prominent?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "periventricular white matter",
+            "B": "deep white matter",
+            "C": "subcortical white matter",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000060-IP",
+        "image_path": "MRI_images/radimagenet-vqa-test-000060.jpg",
+        "question": "Which portion of the hip joint is best visualized in this MRI?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "femoral head",
+            "B": "femoral neck",
+            "C": "acetabulum",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
     }
 
 

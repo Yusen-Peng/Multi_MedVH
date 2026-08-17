@@ -306,6 +306,10 @@ python MedGemma_runner.py \
 
 ## Results
 
+Global CD diagram (4 question types x 5 modalities):
+
+![alt text](results/model_cd_diagram.png)
+
 
 Accuracy-model size tradeoff:
 
@@ -316,7 +320,7 @@ Heatmap by modality/question type:
 
 | by modality | by question type |
 | ----------- | ---------------- |
-| ![alt text](results/modality_heatmap.png) |  |
+| ![alt text](results/modality_heatmap.png) | ![alt text](results/question_type_heatmap.png) |
 
 
 General-Purpose v.s. Domain finetuned models:

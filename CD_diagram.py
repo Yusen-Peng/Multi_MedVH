@@ -614,6 +614,12 @@ def plot_cd_diagram(
         bbox_inches="tight",
     )
 
+    plt.savefig(
+        output_pdf.replace(".pdf", ".png"),
+        bbox_inches="tight",
+        dpi=300,
+    )
+
     plt.show()
 
 
