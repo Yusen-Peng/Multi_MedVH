@@ -1,346 +1,10 @@
 [
   {
-    "question_id": "radimagenet-vqa-test-000063",
-    "image path": "images/radimagenet-vqa-test-000063.jpg",
-    "prompt": "Is the abdomen affected by liver lesion?",
-    "GT": "yes",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000064",
-    "image path": "images/radimagenet-vqa-test-000064.jpg",
-    "prompt": "Does this image show the lung?",
-    "GT": "yes",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000065",
-    "image path": "images/radimagenet-vqa-test-000065.jpg",
-    "prompt": "What specific anatomical structure is highlighted?",
-    "GT": "abdomen",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000066",
-    "image path": "images/radimagenet-vqa-test-000066.jpg",
-    "prompt": "Is there evidence of intraarticular abnormality in this image?",
-    "GT": "no",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000067",
-    "image path": "images/radimagenet-vqa-test-000067.jpg",
-    "prompt": "Can you see the spine?",
-    "GT": "yes",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000068",
-    "image path": "images/radimagenet-vqa-test-000068.jpg",
-    "prompt": "What condition is affecting the ankle foot?",
-    "GT": "plantar fascia pathology",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000069",
-    "image path": "images/radimagenet-vqa-test-000069.jpg",
-    "prompt": "What condition is affecting the abdomen?",
-    "GT": "liver disease",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000070",
-    "image path": "images/radimagenet-vqa-test-000070.jpg",
-    "prompt": "Is the spine visible in the image?",
-    "GT": "yes",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000071",
-    "image path": "images/radimagenet-vqa-test-000071.jpg",
-    "prompt": "Name the organ featured in this image.",
-    "GT": "knee",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000072",
-    "image path": "images/radimagenet-vqa-test-000072.jpg",
-    "prompt": "Is there evidence of soft tissue fluid in this image?",
-    "GT": "yes",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000073",
-    "image path": "images/radimagenet-vqa-test-000073.jpg",
-    "prompt": "Are there signs of prostate lesion?",
-    "GT": "no",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000074",
-    "image path": "images/radimagenet-vqa-test-000074.jpg",
-    "prompt": "Does the patient have prostate lesion?",
-    "GT": "no",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000075",
-    "image path": "images/radimagenet-vqa-test-000075.jpg",
-    "prompt": "Is the ankle foot part of this scan?",
-    "GT": "no",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000076",
-    "image path": "images/radimagenet-vqa-test-000076.jpg",
-    "prompt": "Which of the following pathologies is present in this image?\n\nChoices:\nA. no pathology seen\nB. chondral pathology\nC. soft tissue fluid\nD. labral pathology",
-    "GT": "labral pathology",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000077",
-    "image path": "images/radimagenet-vqa-test-000077.jpg",
-    "prompt": "Is there evidence of arterial pathology in this image?",
-    "GT": "no",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000078",
-    "image path": "images/radimagenet-vqa-test-000078.jpg",
-    "prompt": "Does the picture contain the shoulder?",
-    "GT": "yes",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000079",
-    "image path": "images/radimagenet-vqa-test-000079.jpg",
-    "prompt": "What is the most likely pathology in this image?\n\nChoices:\nA. no pathology seen\nB. airspace opacity\nC. nodule\nD. interstitial lung disease",
-    "GT": "airspace opacity",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000080",
-    "image path": "images/radimagenet-vqa-test-000080.jpg",
-    "prompt": "What is the correct anatomical region for this scan?\n\nChoices:\nA. brain\nB. hip\nC. abdomen\nD. knee",
-    "GT": "knee",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000081",
-    "image path": "images/radimagenet-vqa-test-000081.jpg",
-    "prompt": "Does the picture contain the hip?",
-    "GT": "no",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000082",
-    "image path": "images/radimagenet-vqa-test-000082.jpg",
-    "prompt": "What abnormality is present in this scan?",
-    "GT": "no pathology seen",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000083",
-    "image path": "images/radimagenet-vqa-test-000083.jpg",
-    "prompt": "Is there an abnormality present?",
-    "GT": "yes",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000084",
-    "image path": "images/radimagenet-vqa-test-000084.jpg",
-    "prompt": "Does the picture contain the abdomen?",
-    "GT": "no",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000085",
-    "image path": "images/radimagenet-vqa-test-000085.jpg",
-    "prompt": "What is the correct anatomical region for this scan?\n\nChoices:\nA. lung\nB. brain\nC. knee\nD. shoulder",
-    "GT": "brain",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000086",
-    "image path": "images/radimagenet-vqa-test-000086.jpg",
-    "prompt": "What abnormality is present in this scan?",
-    "GT": "no pathology seen",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000087",
-    "image path": "images/radimagenet-vqa-test-000087.jpg",
-    "prompt": "Which of the following anatomical regions is depicted in this scan?\n\nChoices:\nA. spine\nB. lung\nC. brain\nD. ankle foot",
-    "GT": "ankle foot",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000088",
-    "image path": "images/radimagenet-vqa-test-000088.jpg",
-    "prompt": "Is the ankle foot part of this scan?",
-    "GT": "yes",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000089",
-    "image path": "images/radimagenet-vqa-test-000089.jpg",
-    "prompt": "Can you see the abdomen?",
-    "GT": "yes",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000090",
-    "image path": "images/radimagenet-vqa-test-000090.jpg",
-    "prompt": "Select the pathology that best describes this image:\n\nChoices:\nA. meniscal abnormality\nB. chondral abnormality\nC. no pathology seen\nD. soft tissue fluid collection",
-    "GT": "soft tissue fluid collection",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000091",
-    "image path": "images/radimagenet-vqa-test-000091.jpg",
-    "prompt": "Select the correct anatomical region.\n\nChoices:\nA. brain\nB. ankle foot\nC. spine\nD. hip",
-    "GT": "hip",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000092",
-    "image path": "images/radimagenet-vqa-test-000092.jpg",
-    "prompt": "What anatomical region is shown?",
-    "GT": "lung",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000093",
-    "image path": "images/radimagenet-vqa-test-000093.jpg",
-    "prompt": "Which part of the body does this image belong to?",
-    "GT": "lung",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000094",
-    "image path": "images/radimagenet-vqa-test-000094.jpg",
-    "prompt": "Which part of the body does this image belong to?",
-    "GT": "lung",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000095",
-    "image path": "images/radimagenet-vqa-test-000095.jpg",
-    "prompt": "Does this scan reveal any abnormalities?",
-    "GT": "no",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000096",
-    "image path": "images/radimagenet-vqa-test-000096.jpg",
-    "prompt": "Name the organ featured in this image.",
-    "GT": "ankle foot",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000097",
-    "image path": "images/radimagenet-vqa-test-000097.jpg",
-    "prompt": "Name the organ featured in this image.",
-    "GT": "knee",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000098",
-    "image path": "images/radimagenet-vqa-test-000098.jpg",
-    "prompt": "Is there an abnormality present?",
-    "GT": "yes",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000099",
-    "image path": "images/radimagenet-vqa-test-000099.jpg",
-    "prompt": "What organ is highlighted in this scan?",
-    "GT": "brain",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000100",
-    "image path": "images/radimagenet-vqa-test-000100.jpg",
-    "prompt": "What is the most likely pathology in this image?\n\nChoices:\nA. no pathology seen\nB. foraminal pathology\nC. disc pathology\nD. spinal cord pathology",
-    "GT": "spinal cord pathology",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000101",
-    "image path": "images/radimagenet-vqa-test-000101.jpg",
-    "prompt": "Is this image abnormal?",
-    "GT": "yes",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000102",
-    "image path": "images/radimagenet-vqa-test-000102.jpg",
-    "prompt": "What is the correct anatomical region for this scan?\n\nChoices:\nA. hip\nB. knee\nC. lung\nD. ankle foot",
-    "GT": "hip",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000103",
-    "image path": "images/radimagenet-vqa-test-000103.jpg",
-    "prompt": "Does the patient have glenohumeral joint osteoarthritis?",
-    "GT": "yes",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000104",
-    "image path": "images/radimagenet-vqa-test-000104.jpg",
-    "prompt": "Is the abdomen present in this image?",
-    "GT": "yes",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000105",
-    "image path": "images/radimagenet-vqa-test-000105.jpg",
-    "prompt": "Are there signs of soft tissue fluid collection?",
-    "GT": "yes",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000106",
-    "image path": "images/radimagenet-vqa-test-000106.jpg",
-    "prompt": "Does this image show the ankle foot?",
-    "GT": "yes",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000107",
-    "image path": "images/radimagenet-vqa-test-000107.jpg",
-    "prompt": "Are there signs of foraminal pathology?",
-    "GT": "yes",
-    "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000108",
-    "image path": "images/radimagenet-vqa-test-000108.jpg",
-    "prompt": "Does the patient have bronchiectasis?",
-    "GT": "no",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000109",
-    "image path": "images/radimagenet-vqa-test-000109.jpg",
-    "prompt": "Can you see the ankle foot?",
-    "GT": "no",
-    "category": "CT"
-  },
-  {
     "question_id": "radimagenet-vqa-test-000110",
     "image path": "images/radimagenet-vqa-test-000110.jpg",
     "prompt": "Does this image show the shoulder?",
     "GT": "no",
     "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000111",
-    "image path": "images/radimagenet-vqa-test-000111.jpg",
-    "prompt": "What pathology is shown in this scan of lung\n\nChoices:\nA. nodule\nB. airspace opacity\nC. interstitial lung disease\nD. no pathology seen",
-    "GT": "normal",
-    "category": "CT"
   },
   {
     "question_id": "radimagenet-vqa-test-000112",
@@ -350,32 +14,11 @@
     "category": "MRI"
   },
   {
-    "question_id": "radimagenet-vqa-test-000113",
-    "image path": "images/radimagenet-vqa-test-000113.jpg",
-    "prompt": "Can you identify the abdomen in this image?",
-    "GT": "yes",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000114",
-    "image path": "images/radimagenet-vqa-test-000114.jpg",
-    "prompt": "Is airspace opacity present?",
-    "GT": "yes",
-    "category": "CT"
-  },
-  {
     "question_id": "radimagenet-vqa-test-000115",
     "image path": "images/radimagenet-vqa-test-000115.jpg",
     "prompt": "Which of the following anatomical regions is depicted in this scan?\n\nChoices:\nA. ankle foot\nB. abdomen\nC. hip\nD. shoulder",
     "GT": "abdomen",
     "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000116",
-    "image path": "images/radimagenet-vqa-test-000116.jpg",
-    "prompt": "What pathology is shown in this scan of abdomen\n\nChoices:\nA. renal lesion\nB. liver lesion\nC. no pathology seen\nD. ascites",
-    "GT": "ascites",
-    "category": "CT"
   },
   {
     "question_id": "radimagenet-vqa-test-000117",
@@ -406,46 +49,11 @@
     "category": "MRI"
   },
   {
-    "question_id": "radimagenet-vqa-test-000121",
-    "image path": "images/radimagenet-vqa-test-000121.jpg",
-    "prompt": "Which of the following pathologies is present in this image?\n\nChoices:\nA. no pathology seen\nB. interstitial lung disease\nC. nodule\nD. airspace opacity",
-    "GT": "nodule",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000122",
-    "image path": "images/radimagenet-vqa-test-000122.jpg",
-    "prompt": "What pathology is shown in this scan of abdomen\n\nChoices:\nA. renal lesion\nB. urolithiasis\nC. no pathology seen\nD. liver lesion",
-    "GT": "urolithiasis",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000123",
-    "image path": "images/radimagenet-vqa-test-000123.jpg",
-    "prompt": "Is adrenal pathology present?",
-    "GT": "no",
-    "category": "CT"
-  },
-  {
     "question_id": "radimagenet-vqa-test-000124",
     "image path": "images/radimagenet-vqa-test-000124.jpg",
     "prompt": "Is the spine affected by disc pathology?",
     "GT": "yes",
     "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000125",
-    "image path": "images/radimagenet-vqa-test-000125.jpg",
-    "prompt": "What specific anatomical structure is highlighted?",
-    "GT": "lung",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000126",
-    "image path": "images/radimagenet-vqa-test-000126.jpg",
-    "prompt": "Is there an abnormality present?",
-    "GT": "yes",
-    "category": "CT"
   },
   {
     "question_id": "radimagenet-vqa-test-000127",
@@ -455,32 +63,11 @@
     "category": "MRI"
   },
   {
-    "question_id": "radimagenet-vqa-test-000128",
-    "image path": "images/radimagenet-vqa-test-000128.jpg",
-    "prompt": "Is the brain visible in the image?",
-    "GT": "no",
-    "category": "CT"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000129",
-    "image path": "images/radimagenet-vqa-test-000129.jpg",
-    "prompt": "What condition is affecting the lung?",
-    "GT": "no pathology seen",
-    "category": "CT"
-  },
-  {
     "question_id": "radimagenet-vqa-test-000130",
     "image path": "images/radimagenet-vqa-test-000130.jpg",
     "prompt": "Which part of the body does this image belong to?",
     "GT": "knee",
     "category": "MRI"
-  },
-  {
-    "question_id": "radimagenet-vqa-test-000131",
-    "image path": "images/radimagenet-vqa-test-000131.jpg",
-    "prompt": "Name the organ featured in this image.",
-    "GT": "lung",
-    "category": "CT"
   },
   {
     "question_id": "radimagenet-vqa-test-000132",
@@ -532,26 +119,13 @@
     "category": "MRI"
   },
   {
-    "question_id": "radimagenet-vqa-test-000139",
-    "image path": "images/radimagenet-vqa-test-000139.jpg",
-    "prompt": "Which of the following pathologies is present in this image?\n\nChoices:\nA. interstitial lung disease\nB. no pathology seen\nC. airspace opacity\nD. nodule",
-    "GT": "normal",
-    "category": "CT"
-  },
-  {
     "question_id": "radimagenet-vqa-test-000140",
     "image path": "images/radimagenet-vqa-test-000140.jpg",
     "prompt": "Does the patient have arteriovenous anomaly?",
     "GT": "no",
     "category": "MRI"
   },
-  {
-    "question_id": "radimagenet-vqa-test-000141",
-    "image path": "images/radimagenet-vqa-test-000141.jpg",
-    "prompt": "Is there evidence of bronchiectasis in this image?",
-    "GT": "no",
-    "category": "CT"
-  },
+
   {
     "question_id": "radimagenet-vqa-test-000142",
     "image path": "images/radimagenet-vqa-test-000142.jpg",

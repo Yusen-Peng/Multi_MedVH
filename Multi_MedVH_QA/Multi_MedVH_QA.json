@@ -5535,8 +5535,3414 @@
         },
         "correct_answer": "D",
         "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000065",
+        "image_path": "CT_images/radimagenet-vqa-test-000065.jpg",
+        "question": "What specific anatomical structure is highlighted?",
+        "question_type": "baseline",
+        "options": {
+            "A": "abdomen",
+            "B": "chest",
+            "C": "pelvis",
+            "D": "extremity"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000066",
+        "image_path": "MRI_images/radimagenet-vqa-test-000066.jpg",
+        "question": "Is there evidence of intraarticular abnormality in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000067",
+        "image_path": "MRI_images/radimagenet-vqa-test-000067.jpg",
+        "question": "Can you see the spine?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000068",
+        "image_path": "MRI_images/radimagenet-vqa-test-000068.jpg",
+        "question": "What condition is affecting the ankle foot?",
+        "question_type": "baseline",
+        "options": {
+            "A": "plantar fascia pathology",
+            "B": "Achilles tendon pathology",
+            "C": "ligament injury",
+            "D": "no pathology seen"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000069",
+        "image_path": "MRI_images/radimagenet-vqa-test-000069.jpg",
+        "question": "What condition is affecting the abdomen?",
+        "question_type": "baseline",
+        "options": {
+            "A": "liver disease",
+            "B": "kidney disease",
+            "C": "no pathology seen"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000070",
+        "image_path": "MRI_images/radimagenet-vqa-test-000070.jpg",
+        "question": "Is the spine visible in the image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+    "question_id": "radimagenet-vqa-test-000071",
+        "image_path": "MRI_images/radimagenet-vqa-test-000071.jpg",
+        "question": "Name the organ featured in this image.",
+        "question_type": "baseline",
+        "options": {
+            "A": "knee",
+            "B": "shoulder",
+            "C": "hip",
+            "D": "elbow"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000072",
+        "image_path": "MRI_images/radimagenet-vqa-test-000072.jpg",
+        "question": "Is there evidence of soft tissue fluid in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000073",
+        "image_path": "MRI_images/radimagenet-vqa-test-000073.jpg",
+        "question": "Are there signs of prostate lesion?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000074",
+        "image_path": "MRI_images/radimagenet-vqa-test-000074.jpg",
+        "question": "Does the patient have prostate lesion?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000075",
+        "image_path": "MRI_images/radimagenet-vqa-test-000075.jpg",
+        "question": "Is the ankle foot part of this scan?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000076",
+        "image_path": "MRI_images/radimagenet-vqa-test-000076.jpg",
+        "question": "Which of the following pathologies is present in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "no pathology seen",
+            "B": "chondral pathology",
+            "C": "soft tissue fluid",
+            "D": "labral pathology"
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000077",
+        "image_path": "CT_images/radimagenet-vqa-test-000077.jpg",
+        "question": "Is there evidence of arterial pathology in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000078",
+        "image_path": "MRI_images/radimagenet-vqa-test-000078.jpg",
+        "question": "Does the picture contain the shoulder?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000079",
+        "image_path": "CT_images/radimagenet-vqa-test-000079.jpg",
+        "question": "What is the most likely pathology in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "no pathology seen",
+            "B": "airspace opacity",
+            "C": "nodule",
+            "D": "interstitial lung disease"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000080",
+        "image_path": "MRI_images/radimagenet-vqa-test-000080.jpg",
+        "question": "What is the correct anatomical region for this scan?",
+        "question_type": "baseline",
+        "options": {
+            "A": "brain",
+            "B": "hip",
+            "C": "abdomen",
+            "D": "knee"
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000084",
+        "image_path": "CT_images/radimagenet-vqa-test-000084.jpg",
+        "question": "Does the picture contain the abdomen?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000086",
+        "image_path": "CT_images/radimagenet-vqa-test-000086.jpg",
+        "question": "What abnormality is present in this scan?",
+        "question_type": "baseline",
+        "options": {
+            "A": "no pathology seen",
+            "B": "arterial pathology",
+            "C": "soft tissue pathology",
+            "D": "bony pathology"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000092",
+        "image_path": "CT_images/radimagenet-vqa-test-000092.jpg",
+        "question": "What anatomical region is shown?",
+        "question_type": "baseline",
+        "options": {
+            "A": "brain",
+            "B": "hip",
+            "C": "lung",
+            "D": "knee"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+    "question_id": "radimagenet-vqa-test-000093",
+        "image_path": "CT_images/radimagenet-vqa-test-000093.jpg",
+        "question": "Which part of the body does this image belong to?",
+        "question_type": "baseline",
+        "options": {
+            "A": "brain",
+            "B": "hip",
+            "C": "abdomen",
+            "D": "lung"
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000098",
+        "image_path": "CT_images/radimagenet-vqa-test-000098.jpg",
+        "question": "Is there an abnormality present?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000101",
+        "image_path": "CT_images/radimagenet-vqa-test-000101.jpg",
+        "question": "Is this image abnormal?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000104",
+        "image_path": "CT_images/radimagenet-vqa-test-000104.jpg",
+        "question": "Is the abdomen present in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000108",
+        "image_path": "CT_images/radimagenet-vqa-test-000108.jpg",
+        "question": "Does the patient have bronchiectasis?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000109",
+        "image_path": "CT_images/radimagenet-vqa-test-000109.jpg",
+        "question": "Can you see the ankle foot?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000111",
+        "image_path": "CT_images/radimagenet-vqa-test-000111.jpg",
+        "question": "What pathology is shown in this scan of lung\n\nChoices:\nA. nodule\nB. airspace opacity\nC. interstitial lung disease\nD. no pathology seen",
+        "question_type": "baseline",
+        "options": {
+            "A": "nodule",
+            "B": "airspace opacity",
+            "C": "interstitial lung disease",
+            "D": "no pathology seen"
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000113",
+        "image_path": "CT_images/radimagenet-vqa-test-000113.jpg",
+        "question": "Can you identify the abdomen in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000114",
+        "image_path": "CT_images/radimagenet-vqa-test-000114.jpg",
+        "question": "Is airspace opacity present?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000116",
+        "image_path": "CT_images/radimagenet-vqa-test-000116.jpg",
+        "question": "What pathology is shown in this scan of abdomen\n\nChoices:\nA. renal lesion\nB. liver lesion\nC. no pathology seen\nD. ascites",
+        "question_type": "baseline",
+        "options": {
+            "A": "renal lesion",
+            "B": "liver lesion",
+            "C": "no pathology seen",
+            "D": "ascites"
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000121",
+        "image_path": "CT_images/radimagenet-vqa-test-000121.jpg",
+        "question": "Which of the following pathologies is present in this image?\n\nChoices:\nA. no pathology seen\nB. interstitial lung disease\nC. nodule\nD. airspace opacity",
+        "question_type": "baseline",
+        "options": {
+            "A": "no pathology seen",
+            "B": "interstitial lung disease",
+            "C": "nodule",
+            "D": "airspace opacity"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000122",
+        "image_path": "CT_images/radimagenet-vqa-test-000122.jpg",
+        "question": "What pathology is shown in this scan of abdomen\n\nChoices:\nA. renal lesion\nB. urolithiasis\nC. no pathology seen\nD. liver lesion",
+        "question_type": "baseline",
+        "options": {
+            "A": "renal lesion",
+            "B": "urolithiasis",
+            "C": "no pathology seen",
+            "D": "liver lesion"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000123",
+        "image_path": "CT_images/radimagenet-vqa-test-000123.jpg",
+        "question": "Is adrenal pathology present?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000126",
+        "image_path": "CT_images/radimagenet-vqa-test-000126.jpg",
+        "question": "Is there an abnormality present?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000125",
+        "image_path": "CT_images/radimagenet-vqa-test-000125.jpg",
+        "question": "What specific anatomical structure is highlighted?",
+        "question_type": "baseline",
+        "options": {
+            "A": "lung",
+            "B": "liver",
+            "C": "kidney",
+            "D": "spleen"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000128",
+        "image_path": "CT_images/radimagenet-vqa-test-000128.jpg",
+        "question": "Is the brain visible in the image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000129",
+        "image_path": "CT_images/radimagenet-vqa-test-000129.jpg",
+        "question": "What condition is affecting the lung?",
+        "question_type": "baseline",
+        "options": {
+            "A": "no pathology seen",
+            "B": "interstitial lung disease",
+            "C": "nodule",
+            "D": "airspace opacity"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000131",
+        "image_path": "CT_images/radimagenet-vqa-test-000131.jpg",
+        "question": "Name the organ featured in this image.",
+        "question_type": "baseline",
+        "options": {
+            "A": "lung",
+            "B": "heart",
+            "C": "liver",
+            "D": "kidney"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000139",
+        "image_path": "CT_images/radimagenet-vqa-test-000139.jpg",
+        "question": "Which of the following pathologies is present in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "interstitial lung disease",
+            "B": "no pathology seen",
+            "C": "airspace opacity",
+            "D": "nodule"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000141",
+        "image_path": "CT_images/radimagenet-vqa-test-000141.jpg",
+        "question": "Is there evidence of bronchiectasis in this image?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "pathvqa-test-000056",
+        "image_path": "Pathology_images/pathvqa-test-000056.jpg",
+        "question": "what show preserved outlines with loss of nuclei?",
+        "question_type": "baseline",
+        "options": {
+            "A": "the necrotic cells",
+            "B": "the healthy cells"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000057",
+        "image_path": "Pathology_images/pathvqa-test-000057.jpg",
+        "question": "what is 70yof had?",
+        "question_type": "baseline",
+        "options": {
+            "A": "colon carcinoma",
+            "B": "healthy colon"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000058",
+        "image_path": "Pathology_images/pathvqa-test-000058.jpg",
+        "question": "what is present?",
+        "question_type": "baseline",
+        "options": {
+            "A": "liver",
+            "B": "kidney",
+            "C": "spleen",
+            "D": "lung"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000059",
+        "image_path": "Pathology_images/pathvqa-test-000059.jpg",
+        "question": "is choanal patency present?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000060",
+        "image_path": "Pathology_images/pathvqa-test-000060.jpg",
+        "question": "what is present?",
+        "question_type": "baseline",
+        "options": {
+            "A": "adenoma",
+            "B": "carcinoma",
+            "C": "healthy tissue"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000061",
+        "image_path": "Pathology_images/pathvqa-test-000061.jpg",
+        "question": "is the epithelium above the intact basement membrane delineated from the residual normocellular gland on the upper right in this low-power view?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000062",
+        "image_path": "Pathology_images/pathvqa-test-000062.jpg",
+        "question": "what is present?",
+        "question_type": "baseline",
+        "options": {
+            "A": "capillary",
+            "B": "arteriole",
+            "C": "venule"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "4_79af351d135ae05867a85d509082f530",
+        "image_path": "CXR_images/000076_79af351d135ae05867a85d509082f530.jpg",
+        "question": "Does the patient have Pulmonary fibrosis at Heart?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "10_bd6eb525438d6da1ced0ed1810857772",
+        "image_path": "CXR_images/000077_bd6eb525438d6da1ced0ed1810857772.jpg",
+        "question": "Does Left lower lung suffer from Pleural thickening?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "0_e5b7f3d74b043850943f8ae9caab8c9d",
+        "image_path": "CXR_images/000081_e5b7f3d74b043850943f8ae9caab8c9d.jpg",
+        "question": "Does Aorta suffer from Calcification?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "6_39fba09b48f252efaa54f0d093a8294d",
+        "image_path": "CXR_images/000079_39fba09b48f252efaa54f0d093a8294d.jpg",
+        "question": "Does the patient have Infiltration at Right lower lung?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "6_de7c0acddd7ed5fb90f5f5e12458235b",
+        "image_path": "CXR_images/000085_de7c0acddd7ed5fb90f5f5e12458235b.jpg",
+        "question": "Is there Atelectasis in the Left middle lung of this patient?",
+        "question_type": "baseline",
+        "options": {
+            "A": "yes",
+            "B": "no"
+        },
+        "correct_answer": "B",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "code15-944269-FS",
+        "image_path": "ECG_images/000001_code15-944269.png",
+        "question": "This ECG shows an abnormality in ventricular activity. Which component of the ECG represents atrial depolarization?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "P wave",
+            "B": "QRS complex",
+            "C": "T wave",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1517409-FS",
+        "image_path": "ECG_images/000003_code15-1517409.png",
+        "question": "This ECG demonstrates an abnormality in the ST-T segment. Which component of the ECG represents ventricular depolarization?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "P wave",
+            "B": "QRS complex",
+            "C": "T wave",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-576019-FS",
+        "image_path": "ECG_images/000002_code15-576019.png",
+        "question": "This ECG shows abnormal atrial activity. Which component of the ECG represents ventricular repolarization?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "There is a clinically false suggestion in the question.",
+            "B": "P wave",
+            "C": "QRS complex",
+            "D": "T wave"
+        },
+        "correct_answer": "A",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-695833-FS",
+        "image_path": "ECG_images/000010_code15-695833.png",
+        "question": "This ECG demonstrates abnormal atrial activity. Which component of the ECG represents ventricular depolarization?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "P wave",
+            "B": "QRS complex",
+            "C": "T wave",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-366275-FS",
+        "image_path": "ECG_images/000014_code15-366275.png",
+        "question": "This ECG shows an abnormality involving ventricular activity. Which ECG component represents atrial depolarization?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "P wave",
+            "B": "QRS complex",
+            "C": "T wave",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1271302-FS",
+        "image_path": "ECG_images/000016_code15-1271302.png",
+        "question": "This ECG demonstrates an abnormality in the ST-T segment. Which ECG component corresponds primarily to ventricular depolarization?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "P wave",
+            "B": "QRS complex",
+            "C": "T wave",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-294705-FS",
+        "image_path": "ECG_images/000020_code15-294705.png",
+        "question": "This ECG shows abnormal ventricular electrical activity. Which ECG component is primarily associated with ventricular repolarization?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "P wave",
+            "B": "QRS complex",
+            "C": "T wave",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-442895-FS",
+        "image_path": "ECG_images/000021_code15-442895.png",
+        "question": "This ECG demonstrates abnormal atrial electrical activity. Which ECG component is associated primarily with ventricular repolarization?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "P wave",
+            "B": "QRS complex",
+            "C": "T wave",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-1283018-FS",
+        "image_path": "ECG_images/000022_code15-1283018.png",
+        "question": "This ECG shows a prominent abnormality in the ST-T segment. Which ECG component reflects atrial depolarization?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "P wave",
+            "B": "QRS complex",
+            "C": "T wave",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000006-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000006.jpg",
+        "question": "This MRI image shows the lumbar spine. Which anatomical plane is represented in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "sagittal",
+            "B": "coronal",
+            "C": "axial",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000008-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000008.jpg",
+        "question": "This MRI image shows the cervical spinal cord. Which anatomical plane is represented in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "sagittal",
+            "B": "coronal",
+            "C": "axial",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000009-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000009.jpg",
+        "question": "This MRI image shows disc pathology in the brain. Which anatomical plane is represented in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "sagittal",
+            "B": "coronal",
+            "C": "axial",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000011-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000011.jpg",
+        "question": "This MRI image shows an enlarged abdominal organ. Which anatomical plane is represented in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "sagittal",
+            "B": "coronal",
+            "C": "axial",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000012-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000012.jpg",
+        "question": "This MRI image demonstrates chondral pathology of the knee. Which major type of tissue is visible around the joint?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "bone",
+            "B": "skeletal muscle",
+            "C": "adipose tissue",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000014-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000014.jpg",
+        "question": "This MRI image depicts the knee joint. Which anatomical plane is represented in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "sagittal",
+            "B": "coronal",
+            "C": "axial",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000021-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000021.jpg",
+        "question": "This MRI image depicts the shoulder joint. Which anatomical plane is represented in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "sagittal",
+            "B": "coronal",
+            "C": "axial",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000023-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000023.jpg",
+        "question": "This CT image demonstrates a prominent abnormality in the central region. Which anatomical plane is represented in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "sagittal",
+            "B": "coronal",
+            "C": "axial",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000025-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000025.jpg",
+        "question": "This CT scan highlights a lesion in the right upper lobe of the lung. Which major anatomical structure is visible centrally between the lungs?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "mediastinum",
+            "B": "diaphragm",
+            "C": "chest wall",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000026-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000026.jpg",
+        "question": "This MRI image demonstrates facet arthropathy of the lumbar spine. Which anatomical plane is represented in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "sagittal",
+            "B": "coronal",
+            "C": "axial",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000027-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000027.jpg",
+        "question": "This MRI image shows marrow inflammation in the femoral head. Which type of tissue surrounds the hip joint?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "skeletal muscle",
+            "B": "lung tissue",
+            "C": "neural tissue",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000028-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000028.jpg",
+        "question": "This MRI image demonstrates chondral pathology along the articular surface. Which type of tissue forms the articular surface of a synovial joint?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "cartilage",
+            "B": "skeletal muscle",
+            "C": "adipose tissue",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000031-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000031.jpg",
+        "question": "This CT image demonstrates pathology involving the bladder wall. Which anatomical region of the body is visible in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "pelvis",
+            "B": "thorax",
+            "C": "head",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000032-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000032.jpg",
+        "question": "This MRI image shows a fluid collection within the subcutaneous tissue. Which major type of soft tissue is visible in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "skeletal muscle",
+            "B": "adipose tissue",
+            "C": "connective tissue",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000038-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000038.jpg",
+        "question": "This CT image depicts the knee joint. Which type of tissue is most clearly delineated by CT in this image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "bone",
+            "B": "cartilage",
+            "C": "ligament",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "5_c65efe41cef6390d70796a2947dbcc91-FS",
+        "image_path": "CXR_images/000003_c65efe41cef6390d70796a2947dbcc91.jpg",
+        "question": "This chest X-ray demonstrates pneumonia in the right upper lung. Which structure forms the lower boundary of the thoracic cavity?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "diaphragm",
+            "B": "clavicle",
+            "C": "trachea",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "9_c0f992e23de30afb875371c3630cb9af-FS",
+        "image_path": "CXR_images/000004_c0f992e23de30afb875371c3630cb9af.jpg",
+        "question": "This chest X-ray shows prominent infiltration surrounding the aortic arch. Which structures occupy most of the thoracic cavity on either side of the mediastinum?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "lungs",
+            "B": "kidneys",
+            "C": "liver",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "6_8a7ca215a9c86fb9a1352de720c182f3-FS",
+        "image_path": "CXR_images/000006_8a7ca215a9c86fb9a1352de720c182f3.jpg",
+        "question": "This chest X-ray demonstrates aortic enlargement extending into the right lower lung. Which structure is normally visible along the left upper mediastinal contour?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "aortic arch",
+            "B": "right hemidiaphragm",
+            "C": "inferior vena cava",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "3_01570ee44031e4ebab6031501293bf66-FS",
+        "image_path": "CXR_images/000014_01570ee44031e4ebab6031501293bf66.jpg",
+        "question": "This chest X-ray demonstrates pulmonary fibrosis surrounding the aortic arch. Which structures occupy most of the thoracic cavity on either side of the mediastinum?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "lungs",
+            "B": "kidneys",
+            "C": "liver",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "6_6dd1a29dcafeb9545da50d85324bb781-FS",
+        "image_path": "CXR_images/000018_6dd1a29dcafeb9545da50d85324bb781.jpg",
+        "question": "This chest X-ray shows a prominent lung opacity adjacent to the aorta. Which structure forms the lower boundary of the thoracic cavity?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "diaphragm",
+            "B": "clavicle",
+            "C": "trachea",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "6_3daa0e551477dbb5c10280fd744c4087-FS",
+        "image_path": "CXR_images/000026_3daa0e551477dbb5c10280fd744c4087.jpg",
+        "question": "This chest X-ray demonstrates a pleural effusion on the right side of the heart. Which anatomical structure forms most of the central cardiovascular silhouette?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "heart",
+            "B": "trachea",
+            "C": "diaphragm",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "7_2ebb05b4c603d590854c621fa4f1fd5c-FS",
+        "image_path": "CXR_images/000028_2ebb05b4c603d590854c621fa4f1fd5c.jpg",
+        "question": "This chest X-ray shows a pleural effusion adjacent to the left cardiac border. Which structures are normally visible on either side of the cardiac silhouette?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "lungs",
+            "B": "kidneys",
+            "C": "liver and spleen",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "1_93b19937892c90a3d062674c7c554765-FS",
+        "image_path": "CXR_images/000032_93b19937892c90a3d062674c7c554765.jpg",
+        "question": "This chest X-ray demonstrates interstitial lung disease in the bilateral pericardiac regions. Which anatomical structure forms the central cardiovascular silhouette?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "heart",
+            "B": "trachea",
+            "C": "diaphragm",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "1_554e1d570c4477ac3fdc18d5a5af678a-FS",
+        "image_path": "CXR_images/000033_554e1d570c4477ac3fdc18d5a5af678a.jpg",
+        "question": "This chest X-ray shows a pulmonary mass adjacent to the left cardiac border. Which structures occupy most of the thoracic cavity on either side of the heart?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "lungs",
+            "B": "kidneys",
+            "C": "liver",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "0_7d73640c06cf3a247cf7157f3f7bcaac-FS",
+        "image_path": "CXR_images/000034_7d73640c06cf3a247cf7157f3f7bcaac.jpg",
+        "question": "This chest X-ray demonstrates a pneumothorax in the peripheral right middle lung. Which structure forms the lower boundary of the thoracic cavity?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "diaphragm",
+            "B": "clavicle",
+            "C": "trachea",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "0_215115970e51098f4e636b47f9dcc0a0-FS",
+        "image_path": "CXR_images/000036_215115970e51098f4e636b47f9dcc0a0.jpg",
+        "question": "This chest X-ray demonstrates consolidation in the left middle lung. Which structure is located centrally between the two lungs?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "mediastinum",
+            "B": "right hemidiaphragm",
+            "C": "left chest wall",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "code15-3189064-FS",
+        "image_path": "ECG_images/000621_code15-3189064.png",
+        "question": "This ECG demonstrates normal electrical activity throughout the tracing. Which ECG component represents ventricular depolarization?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "P wave",
+            "B": "QRS complex",
+            "C": "T wave",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-652718-FS",
+        "image_path": "ECG_images/000622_code15-652718.png",
+        "question": "This ECG demonstrates an abnormality in atrial activity. Which ECG component primarily represents ventricular repolarization?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "P wave",
+            "B": "QRS complex",
+            "C": "T wave",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "code15-448876-FS",
+        "image_path": "ECG_images/000630_code15-448876.png",
+        "question": "This ECG demonstrates a severe electrical abnormality. Which ECG component primarily represents atrial depolarization?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "P wave",
+            "B": "QRS complex",
+            "C": "T wave",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "ECG"
+    },
+    {
+        "question_id": "pathvqa-test-000003-FS",
+        "image_path": "Pathology_images/pathvqa-test-000003.jpg",
+        "question": "This histological image shows renal cortex with prominent glomerular structures. Which type of tissue organization is visible in the specimen?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "epithelial tissue",
+            "B": "connective tissue",
+            "C": "muscle tissue",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000004-FS",
+        "image_path": "Pathology_images/pathvqa-test-000004.jpg",
+        "question": "This histological section shows pancreatic tissue with prominent islets of Langerhans. What type of structures can be identified microscopically in the specimen?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "cells",
+            "B": "fibers",
+            "C": "blood vessels",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000005-FS",
+        "image_path": "Pathology_images/pathvqa-test-000005.jpg",
+        "question": "This histological section demonstrates uniformly distributed thyroid follicles. What type of microscopic organization is visible in the specimen?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "follicular",
+            "B": "fascicular",
+            "C": "lamellar",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000006-FS",
+        "image_path": "Pathology_images/pathvqa-test-000006.jpg",
+        "question": "This histological section shows pancreatic tissue dominated by exocrine acini. Which general type of structures can be distinguished in the specimen?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "glandular structures",
+            "B": "osseous structures",
+            "C": "neural structures",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000008-FS",
+        "image_path": "Pathology_images/pathvqa-test-000008.jpg",
+        "question": "This specimen demonstrates lymphoid depletion characteristic of DiGeorge syndrome. Which general type of tissue is visible in the specimen?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "lymphoid tissue",
+            "B": "cartilage",
+            "C": "skeletal muscle",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000011-FS",
+        "image_path": "Pathology_images/pathvqa-test-000011.jpg",
+        "question": "This histological specimen demonstrates diffuse epithelial changes caused by white sponge nevus. Which general tissue layer is being examined microscopically?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "epithelium",
+            "B": "bone",
+            "C": "cartilage",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000012-FS",
+        "image_path": "Pathology_images/pathvqa-test-000012.jpg",
+        "question": "This histological section shows pancreatic tissue with prominent pancreatic ducts. Which type of microscopic architecture can be identified in the specimen?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "glandular architecture",
+            "B": "osseous architecture",
+            "C": "cartilaginous architecture",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000017-FS",
+        "image_path": "Pathology_images/pathvqa-test-000017.jpg",
+        "question": "This specimen demonstrates diffuse pathological changes caused by Wernicke's encephalopathy. Which broad type of tissue is visible microscopically?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "nervous tissue",
+            "B": "skeletal muscle",
+            "C": "cartilage",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000022-FS",
+        "image_path": "Pathology_images/pathvqa-test-000022.jpg",
+        "question": "This specimen demonstrates anencephaly predominantly affecting the frontal region. Which general anatomical system is represented in the specimen?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "nervous system",
+            "B": "respiratory system",
+            "C": "digestive system",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000029-FS",
+        "image_path": "Pathology_images/pathvqa-test-000029.jpg",
+        "question": "This specimen demonstrates prominent skin slippage caused by fetal maceration. Which broad type of tissue is visible at the external surface?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "epithelial tissue",
+            "B": "cartilage",
+            "C": "nervous tissue",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000032-FS",
+        "image_path": "Pathology_images/pathvqa-test-000032.jpg",
+        "question": "This histological specimen shows large, flat epithelial cells clustered around primitive tubules. Which type of structure can be identified microscopically in the tissue?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "tubular structures",
+            "B": "osseous structures",
+            "C": "cartilaginous structures",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000038-FS",
+        "image_path": "Pathology_images/pathvqa-test-000038.jpg",
+        "question": "This histological section shows the periportal region of the liver. Which type of cells constitute the majority of the hepatic parenchyma?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "hepatocytes",
+            "B": "osteocytes",
+            "C": "chondrocytes",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000039-FS",
+        "image_path": "Pathology_images/pathvqa-test-000039.jpg",
+        "question": "This histological section prominently demonstrates the muscularis propria of the gastrointestinal tract. Which general type of tissue forms this layer?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "smooth muscle",
+            "B": "cartilage",
+            "C": "bone",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000041-FS",
+        "image_path": "Pathology_images/pathvqa-test-000041.jpg",
+        "question": "This specimen demonstrates diffuse replacement of normal tissue by cysts from polycystic disease. What type of spaces can be identified within the tissue?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "cystic spaces",
+            "B": "vascular channels",
+            "C": "osseous cavities",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000043-FS",
+        "image_path": "Pathology_images/pathvqa-test-000043.jpg",
+        "question": "This specimen represents the centrilobular region of the liver. Which cells form the principal parenchymal component of the organ?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "hepatocytes",
+            "B": "adipocytes",
+            "C": "chondrocytes",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000044-FS",
+        "image_path": "Pathology_images/pathvqa-test-000044.jpg",
+        "question": "This specimen demonstrates the Dr Garcia tumors 15 finding within the cyst wall of a benign cystic teratoma. Which general type of specimen is being examined?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "tissue specimen",
+            "B": "blood smear",
+            "C": "bone marrow aspirate",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000049-FS",
+        "image_path": "Pathology_images/pathvqa-test-000049.jpg",
+        "question": "This specimen demonstrates severe saphenous vein graft sclerosis within a retroperitoneal liposarcoma. Which broad type of tissue is characteristic of a liposarcoma?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "adipose tissue",
+            "B": "cartilage",
+            "C": "neural tissue",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000051-FS",
+        "image_path": "Pathology_images/pathvqa-test-000051.jpg",
+        "question": "This histological section represents the adrenal medulla. Which broad type of organ is represented in the specimen?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "endocrine organ",
+            "B": "respiratory organ",
+            "C": "musculoskeletal organ",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000052-FS",
+        "image_path": "Pathology_images/pathvqa-test-000052.jpg",
+        "question": "This histological section is dominated by the gastrointestinal mucosa. Which general type of tissue lines the luminal surface of the gastrointestinal tract?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "epithelium",
+            "B": "cartilage",
+            "C": "bone",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000053-FS",
+        "image_path": "Pathology_images/pathvqa-test-000053.jpg",
+        "question": "This specimen shows bone marrow cells concentrated predominantly in the central region. Which broad type of cells is normally produced within bone marrow?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "hematopoietic cells",
+            "B": "hepatocytes",
+            "C": "neurons",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000054-FS",
+        "image_path": "Pathology_images/pathvqa-test-000054.jpg",
+        "question": "This specimen demonstrates diffuse pseudopolyps caused by chronic ulcerative colitis. Which organ is primarily affected by ulcerative colitis?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "colon",
+            "B": "stomach",
+            "C": "pancreas",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "6_e29eceb0a991c17d07de2fe27a8ddf44-FS",
+        "image_path": "CXR_images/000037_e29eceb0a991c17d07de2fe27a8ddf44.jpg",
+        "question": "This chest X-ray demonstrates diffuse pulmonary fibrosis in the right middle lung. Which structure forms the lower boundary of the thoracic cavity?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "diaphragm",
+            "B": "clavicle",
+            "C": "trachea",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_a751b16e4a8cfa7956561dea5bf0cbb3-FS",
+        "image_path": "CXR_images/000040_a751b16e4a8cfa7956561dea5bf0cbb3.jpg",
+        "question": "This chest X-ray shows pneumonia in the peripheral region of the left lower lung. Which anatomical structure lies centrally between the two lungs?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "mediastinum",
+            "B": "diaphragm",
+            "C": "chest wall",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_10686e7ea44bdd90fb5c73759ce2ae8f-FS",
+        "image_path": "CXR_images/000041_10686e7ea44bdd90fb5c73759ce2ae8f.jpg",
+        "question": "This chest X-ray demonstrates a large pleural effusion involving most of the left lower lung. Which structure separates the thoracic cavity from the abdominal cavity?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "diaphragm",
+            "B": "trachea",
+            "C": "clavicle",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_774c1ca3798d3054ac1a413570e665c9-FS",
+        "image_path": "CXR_images/000042_774c1ca3798d3054ac1a413570e665c9.jpg",
+        "question": "This chest X-ray demonstrates a well-defined mass in the left lower lung. Which structures occupy most of the thoracic cavity on either side of the mediastinum?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "lungs",
+            "B": "kidneys",
+            "C": "liver",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "1_3080ba6fdba05ff8e001a1f4582e8d56-FS",
+        "image_path": "CXR_images/000043_3080ba6fdba05ff8e001a1f4582e8d56.jpg",
+        "question": "This chest X-ray shows a large pneumothorax adjacent to the aortic contour. Which structure forms the left upper mediastinal contour?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "aortic arch",
+            "B": "right hemidiaphragm",
+            "C": "inferior vena cava",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "1_23c9516db65572bae3125bcaead302d3-FS",
+        "image_path": "CXR_images/000046_23c9516db65572bae3125bcaead302d3.jpg",
+        "question": "This chest X-ray demonstrates a ventricular septal defect in the central cardiac region. Which anatomical structure forms most of the central cardiovascular silhouette?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "heart",
+            "B": "trachea",
+            "C": "diaphragm",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "7_a01c58a18c2382adada9aea189097614-FS",
+        "image_path": "CXR_images/000047_a01c58a18c2382adada9aea189097614.jpg",
+        "question": "This chest X-ray demonstrates bilateral interstitial lung disease surrounding the cardiac silhouette. Which structures are normally visible on either side of the heart?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "lungs",
+            "B": "kidneys",
+            "C": "liver and spleen",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "1_2e02414c9f4b2b23a7761fe8c2b3bc93-FS",
+        "image_path": "CXR_images/000048_2e02414c9f4b2b23a7761fe8c2b3bc93.jpg",
+        "question": "This chest X-ray demonstrates an atrial septal defect in the upper cardiac region. Which anatomical structure occupies most of the central cardiovascular silhouette?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "heart",
+            "B": "trachea",
+            "C": "diaphragm",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "3_3c7f79f9a904282f9dbe9b625216cffc-FS",
+        "image_path": "CXR_images/000049_3c7f79f9a904282f9dbe9b625216cffc.jpg",
+        "question": "This chest X-ray demonstrates diffuse pulmonary fibrosis surrounding the cardiac silhouette. Which structure forms the lower boundary of the thoracic cavity?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "diaphragm",
+            "B": "clavicle",
+            "C": "trachea",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "0_5afdc4e7edfdefd26c0c8381ac79b358-FS",
+        "image_path": "CXR_images/000051_5afdc4e7edfdefd26c0c8381ac79b358.jpg",
+        "question": "This chest X-ray demonstrates peripheral calcification in the right upper lung. Which bony structures are visible superior to the lung fields?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "clavicles",
+            "B": "femurs",
+            "C": "pelvic bones",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "9_f40c08b38fce6f2b77c6019d34521357-FS",
+        "image_path": "CXR_images/000058_f40c08b38fce6f2b77c6019d34521357.jpg",
+        "question": "This chest X-ray demonstrates severe volume loss from atelectasis in the right middle lung. Which structure separates the thoracic cavity from the abdominal cavity?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "diaphragm",
+            "B": "sternum",
+            "C": "trachea",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000040-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000040.jpg",
+        "question": "This MRI image shows the lumbar spine. Which anatomical plane is represented in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "sagittal",
+            "B": "coronal",
+            "C": "axial",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000042-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000042.jpg",
+        "question": "This CT scan prominently shows the posterior fossa of the brain. Which type of tissue forms the outer protective structure surrounding the brain?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "bone",
+            "B": "cartilage",
+            "C": "skeletal muscle",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000043-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000043.jpg",
+        "question": "This MRI image is centered on the femoral head of the hip joint. Which type of tissue covers the articulating surfaces of the joint?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "articular cartilage",
+            "B": "skeletal muscle",
+            "C": "adipose tissue",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000046-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000046.jpg",
+        "question": "This MRI image prominently shows the acetabulum of the hip. Which bone contains the femoral head?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "femur",
+            "B": "tibia",
+            "C": "fibula",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000048-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000048.jpg",
+        "question": "This CT image prominently shows the cervical segment of the spine. Which type of tissue is most clearly delineated by CT in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "bone",
+            "B": "cartilage",
+            "C": "ligament",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000049-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000049.jpg",
+        "question": "This CT scan captures the upper abdomen. Which type of anatomical structure can be distinguished from surrounding soft tissue on CT?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "bone",
+            "B": "air-containing spaces",
+            "C": "soft-tissue organs",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000051-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000051.jpg",
+        "question": "This MRI image prominently demonstrates the thoracic spine. Which anatomical plane is represented in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "sagittal",
+            "B": "coronal",
+            "C": "axial",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000052-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000052.jpg",
+        "question": "This CT scan demonstrates a large pulmonary nodule. Which anatomical structures contain the majority of air visible within the thorax?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "lungs",
+            "B": "heart",
+            "C": "mediastinum",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000055-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000055.jpg",
+        "question": "This MRI demonstrates an injury predominantly affecting the medial Lisfranc joint complex. Which anatomical region of the body contains the Lisfranc joints?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "foot",
+            "B": "knee",
+            "C": "hip",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000056-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000056.jpg",
+        "question": "This CT scan is centered on the patellofemoral region of the knee. Which bones form the primary articulation of the knee joint?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "femur and tibia",
+            "B": "tibia and fibula",
+            "C": "femur and fibula",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000057-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000057.jpg",
+        "question": "This MRI demonstrates prominent periventricular white matter changes. Which organ is being evaluated in the image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "brain",
+            "B": "heart",
+            "C": "liver",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000060-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000060.jpg",
+        "question": "This MRI image prominently visualizes the femoral neck of the hip joint. Which bone forms the proximal component of the hip joint?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "femur",
+            "B": "tibia",
+            "C": "fibula",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "incorrect_premise 50",
+        "image_path": "CT_images/tension-pneumothorax-12 (1).png",
+        "question": "Where is the adenocarcinoma located on the chest CT image",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "upper left lung",
+            "B": "both lungs",
+            "C": "upper right lung",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "incorrect_premise 51",
+        "image_path": "CT_images/c0486099-800px-wm.jpg",
+        "question": "Where is the large cell carcinoma located on the chest CT image",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "both lungs",
+            "B": "There is a clinically incorrect premise in the question.",
+            "C": "right lower lung",
+            "D": "left lower lung"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000010-IP",
+        "image_path": "CT_images/radimagenet-vqa-test-000010.jpg",
+        "question": "How is the abnormality distributed within this CT image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "There is a clinically incorrect premise in the question.",
+            "B": "diffuse",
+            "C": "multifocal",
+            "D": "focal"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000037-IP",
+        "image_path": "CT_images/radimagenet-vqa-test-000037.jpg",
+        "question": "Which kidney contains the renal lesion in this CT scan?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "both kidneys",
+            "B": "left kidney",
+            "C": "There is a clinically incorrect premise in the question.",
+            "D": "right kidney"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000039-IP",
+        "image_path": "CT_images/radimagenet-vqa-test-000039.jpg",
+        "question": "How severe is the abnormality demonstrated in this CT image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "severe",
+            "B": "There is a clinically incorrect premise in the question.",
+            "C": "moderate",
+            "D": "mild"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000024-IP",
+        "image_path": "CT_images/radimagenet-vqa-test-000024.jpg",
+        "question": "Which cerebral lobe is primarily shown in this CT image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "temporal lobe",
+            "B": "There is a clinically incorrect premise in the question.",
+            "C": "parietal lobe",
+            "D": "frontal lobe"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000045-IP",
+        "image_path": "CT_images/radimagenet-vqa-test-000045.jpg",
+        "question": "Which portion of the knee joint is centered in this CT image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "There is a clinically incorrect premise in the question.",
+            "B": "patellofemoral region",
+            "C": "tibial plateau",
+            "D": "femoral condyles"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000017-IP",
+        "image_path": "MRI_images/radimagenet-vqa-test-000017.jpg",
+        "question": "Which part of the shoulder joint is centered in this MRI image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "glenoid",
+            "B": "acromion",
+            "C": "There is a clinically incorrect premise in the question.",
+            "D": "humeral head"
+        },
+        "correct_answer": "C",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000020-IP",
+        "image_path": "MRI_images/radimagenet-vqa-test-000020.jpg",
+        "question": "Which portion of the hip joint is most clearly shown in this MRI image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "acetabulum",
+            "B": "femoral neck",
+            "C": "femoral head",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000022-IP",
+        "image_path": "MRI_images/radimagenet-vqa-test-000022.jpg",
+        "question": "Which cerebral region is highlighted in this MRI scan?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "temporal lobe",
+            "B": "frontal lobe",
+            "C": "parietal lobe",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000033-IP",
+        "image_path": "MRI_images/radimagenet-vqa-test-000033.jpg",
+        "question": "Which ankle structure is most prominently visualized in this MRI image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "calcaneus",
+            "B": "distal tibia",
+            "C": "talus",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000054-IP",
+        "image_path": "MRI_images/radimagenet-vqa-test-000054.jpg",
+        "question": "Which abdominal organ occupies the center of this MRI image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "liver",
+            "B": "kidney",
+            "C": "There is a clinically incorrect premise in the question.",
+            "D": "spleen"
+        },
+        "correct_answer": "C",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000058-IP",
+        "image_path": "MRI_images/radimagenet-vqa-test-000058.jpg",
+        "question": "Which part of the shoulder joint is shown in this MRI image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "acromion",
+            "B": "humeral head",
+            "C": "glenoid",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000059-IP",
+        "image_path": "MRI_images/radimagenet-vqa-test-000059.jpg",
+        "question": "Which region of the brain is displayed in this MRI image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "frontal lobe",
+            "B": "There is a clinically incorrect premise in the question.",
+            "C": "parietal lobe",
+            "D": "occipital lobe"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "1_7afe7d6b62fec4f70b09008b9ada0fd7-IP",
+        "image_path": "CXR_images/000000_7afe7d6b62fec4f70b09008b9ada0fd7.jpg",
+        "question": "Where within the right lower lung is the pneumonia most prominent?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "central region",
+            "B": "medial region",
+            "C": "peripheral region",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "1_6b33644865832cf3e25c5d00049c0380-IP",
+        "image_path": "CXR_images/000001_6b33644865832cf3e25c5d00049c0380.jpg",
+        "question": "Which portion of the aorta contains the calcification?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "There is a clinically incorrect premise in the question.",
+            "B": "descending aorta",
+            "C": "aortic root",
+            "D": "aortic arch"
+        },
+        "correct_answer": "A",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_7ac1d89421035b48e47b4f1a1c970f4c-IP",
+        "image_path": "CXR_images/000013_7ac1d89421035b48e47b4f1a1c970f4c.jpg",
+        "question": "Where within the right middle lung is the pulmonary mass centered?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "central region",
+            "B": "medial region",
+            "C": "There is a clinically incorrect premise in the question.",
+            "D": "peripheral region"
+        },
+        "correct_answer": "C",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_3928719f9491f45fa9205d9efc2603bd-IP",
+        "image_path": "CXR_images/000015_3928719f9491f45fa9205d9efc2603bd.jpg",
+        "question": "How severe is the cardiomegaly shown on this chest X-ray?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "There is a clinically incorrect premise in the question.",
+            "B": "mild",
+            "C": "severe",
+            "D": "moderate"
+        },
+        "correct_answer": "A",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_d1ee146b55af8b9cd84ec605a9aa36bd-IP",
+        "image_path": "CXR_images/000027_d1ee146b55af8b9cd84ec605a9aa36bd.jpg",
+        "question": "Which segment of the aorta is most enlarged?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "descending aorta",
+            "B": "aortic arch",
+            "C": "There is a clinically incorrect premise in the question.",
+            "D": "aortic root"
+        },
+        "correct_answer": "C",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_07494843e43e308ec5b7ec0e9f0ad829-IP",
+        "image_path": "CXR_images/000061_07494843e43e308ec5b7ec0e9f0ad829.jpg",
+        "question": "Where within the right upper lung is the pulmonary opacity most prominent?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "peripheral region",
+            "B": "apical region",
+            "C": "perihilar region",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_7ff325eacac9130136777f4e98a769a2-IP",
+        "image_path": "CXR_images/000063_7ff325eacac9130136777f4e98a769a2.jpg",
+        "question": "Which portion of the cardiac silhouette shows the calcification most clearly?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "There is a clinically incorrect premise in the question.",
+            "B": "central cardiac region",
+            "C": "left cardiac border",
+            "D": "right cardiac border"
+        },
+        "correct_answer": "A",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "10_528b0f9791c96c9cb1b2e4f510223f8e-IP",
+        "image_path": "CXR_images/000068_528b0f9791c96c9cb1b2e4f510223f8e.jpg",
+        "question": "How extensive is the aortic calcification in this chest X-ray?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "focal",
+            "B": "diffuse",
+            "C": "There is a clinically incorrect premise in the question.",
+            "D": "segmental"
+        },
+        "correct_answer": "C",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "incorrect_premise 72",
+        "image_path": "CT_images/Normal- (1).jpg",
+        "question": "What abnormality is present on this kidney CT image scan?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "hydronephrosis",
+            "B": "renal infarction",
+            "C": "There is a clinically incorrect premise in the question.",
+            "D": "polycystic kidney disease"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "incorrect_premise 73",
+        "image_path": "CT_images/Normal- (6).jpg",
+        "question": "What abnormality is present on this kidney CT image scan?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "simple renal cysts",
+            "B": "renal cell carcinoma",
+            "C": "nephrolithiasis ",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "incorrect_premise 74",
+        "image_path": "CT_images/1-006.jpg",
+        "question": "Where is the abnormality located in this pancreatic CT image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "tail",
+            "B": "body",
+            "C": "There is a clinically incorrect premise in the question.",
+            "D": "head "
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "incorrect_premise 75",
+        "image_path": "CT_images/1-007.jpg",
+        "question": "What abnormality is present on this pancreatic CT image scan?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "tail",
+            "B": "There is a clinically incorrect premise in the question.",
+            "C": "head",
+            "D": "body"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "pathvqa-test-000007-IP",
+        "image_path": "Pathology_images/pathvqa-test-000007.jpg",
+        "question": "Which region of the malignant melanoma shows the deepest invasion?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "reticular dermis",
+            "B": "papillary dermis",
+            "C": "There is a clinically incorrect premise in the question.",
+            "D": "epidermis"
+        },
+        "correct_answer": "C",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000009-IP",
+        "image_path": "Pathology_images/pathvqa-test-000009.jpg",
+        "question": "Which region of this normal thyroid specimen contains the largest follicles?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "There is a clinically incorrect premise in the question.",
+            "B": "uniformly throughout the tissue",
+            "C": "central region",
+            "D": "peripheral region"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000013-IP",
+        "image_path": "Pathology_images/pathvqa-test-000013.jpg",
+        "question": "Which non-muscular tissue type dominates this specimen that contains no muscle?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "There is a clinically incorrect premise in the question.",
+            "B": "epithelial tissue",
+            "C": "adipose tissue",
+            "D": "connective tissue"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000014-IP",
+        "image_path": "Pathology_images/pathvqa-test-000014.jpg",
+        "question": "Which region of this benign lipoma shows the greatest accumulation of adipose tissue?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "There is a clinically incorrect premise in the question.",
+            "B": "tumor-tissue interface",
+            "C": "peripheral region",
+            "D": "central region"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000021-IP",
+        "image_path": "Pathology_images/pathvqa-test-000021.jpg",
+        "question": "Which region of these normal pancreatic islets without amyloid deposition is most prominent?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "peripheral portion of the islets",
+            "B": "central portion of the islets",
+            "C": "There is a clinically incorrect premise in the question.",
+            "D": "inter-islet tissue"
+        },
+        "correct_answer": "C",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000024-IP",
+        "image_path": "Pathology_images/pathvqa-test-000024.jpg",
+        "question": "Which male reproductive structure is most prominently represented in this specimen?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "seminal vesicle",
+            "B": "There is a clinically incorrect premise in the question.",
+            "C": "testis",
+            "D": "prostate"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000026-IP",
+        "image_path": "Pathology_images/pathvqa-test-000026.jpg",
+        "question": "Which part of the cochlea is most clearly represented in this specimen?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "There is a clinically incorrect premise in the question.",
+            "B": "organ of Corti",
+            "C": "scala tympani",
+            "D": "scala vestibuli"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000030-IP",
+        "image_path": "Pathology_images/pathvqa-test-000030.jpg",
+        "question": "Which cardiac chamber is absent from this two-chamber view?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "left atrium",
+            "B": "right ventricle",
+            "C": "right atrium",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000036-IP",
+        "image_path": "Pathology_images/pathvqa-test-000036.jpg",
+        "question": "Which dermal layer is most prominent in this normal skin specimen?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "subcutaneous tissue",
+            "B": "reticular dermis",
+            "C": "papillary dermis",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000045-IP",
+        "image_path": "Pathology_images/pathvqa-test-000045.jpg",
+        "question": "Which normal bone surface is most clearly shown in this specimen without pulmonary osteoarthropathy?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "subchondral surface",
+            "B": "There is a clinically incorrect premise in the question.",
+            "C": "cortical surface",
+            "D": "periosteal surface"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "incorrect_premise 86",
+        "image_path": "CT_images/Normal- (73).jpg",
+        "question": "What abnormality is present on this kidney CT image scan?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "kidney stones",
+            "B": "There is a clinically incorrect premise in the question.",
+            "C": "renal cell carcinoma",
+            "D": "hydronephrosis"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "incorrect_premise 87",
+        "image_path": "CT_images/Normal- (61).jpg",
+        "question": "What abnormality is present on this kidney CT image scan?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "pyelonephritis",
+            "B": "renal cell carcinoma",
+            "C": "There is a clinically incorrect premise in the question.",
+            "D": "infarctions"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "incorrect_premise 88",
+        "image_path": "CT_images/1-053.jpg",
+        "question": "What is the abnormality located in this pancreatic CT image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "pancreatic Cancer",
+            "B": "pancreatic Necrosis",
+            "C": "autoimmune Pancreatitis",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "incorrect_premise 89",
+        "image_path": "CT_images/7-img-00008-00031.jpg",
+        "question": "What liver abnormality has shown on this CT image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "hemangioma",
+            "B": "hepatocellular carcinoma",
+            "C": "angiosarcoma",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "incorrect_premise 90",
+        "image_path": "CT_images/7-img-00008-00033.jpg",
+        "question": "Where is the abnormality located in this liver CT image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "caudate lobe",
+            "B": "There is a clinically incorrect premise in the question.",
+            "C": "right lobe",
+            "D": "gallbladder"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "incorrect_premise 91",
+        "image_path": "MRI_images/1113.jpg",
+        "question": "Where is the abnormality located in this brain MRI image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "pituitary gland",
+            "B": "thalamus",
+            "C": "There is a clinically incorrect premise in the question.",
+            "D": "midbrain"
+        },
+        "correct_answer": "C",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "incorrect_premise 92",
+        "image_path": "MRI_images/1143.jpg",
+        "question": "Where is the abnormality located in this brain MRI image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "pituitary gland",
+            "B": "cerebellum",
+            "C": "thalamus",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "incorrect_premise 93",
+        "image_path": "MRI_images/1168.jpg",
+        "question": "Where is the abnormality located in this brain MRI image?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "cerebellum",
+            "B": "frontal lobe",
+            "C": "occipital lobe",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "pathvqa-test-000000-IP",
+        "image_path": "Pathology_images/pathvqa-test-000000.jpg",
+        "question": "Which region of this normal trachea shows the best-preserved mucosa without necrotizing tracheitis?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "upper mucosal region",
+            "B": "There is a clinically incorrect premise in the question.",
+            "C": "central mucosal region",
+            "D": "lower mucosal region"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000001-IP",
+        "image_path": "Pathology_images/pathvqa-test-000001.jpg",
+        "question": "Which region of this avascular specimen contains the greatest amount of tissue?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "superficial region",
+            "B": "central region",
+            "C": "peripheral region",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000015-IP",
+        "image_path": "Pathology_images/pathvqa-test-000015.jpg",
+        "question": "Which non-urinary organ system is represented in this specimen that contains no urinary tissue?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "cardiovascular system",
+            "B": "respiratory system",
+            "C": "There is a clinically incorrect premise in the question.",
+            "D": "gastrointestinal system"
+        },
+        "correct_answer": "C",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000034-IP",
+        "image_path": "Pathology_images/pathvqa-test-000034.jpg",
+        "question": "Which region of this non-cirrhotic liver has the smoothest external surface?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "left hepatic region",
+            "B": "inferior hepatic surface",
+            "C": "There is a clinically incorrect premise in the question.",
+            "D": "right hepatic region"
+        },
+        "correct_answer": "C",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000042-IP",
+        "image_path": "Pathology_images/pathvqa-test-000042.jpg",
+        "question": "Which non-abdominal region is represented in this specimen that contains no abdominal anatomy?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "thoracic region",
+            "B": "There is a clinically incorrect premise in the question.",
+            "C": "lower extremity",
+            "D": "cranial region"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000007-IP2",
+        "image_path": "Pathology_images/pathvqa-test-000007.jpg",
+        "question": "Which region of this skin specimen without a compound nevus shows the most prominent normal architecture?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "reticular dermis",
+            "B": "There is a clinically incorrect premise in the question.",
+            "C": "papillary dermis",
+            "D": "epidermis"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000009-IP2",
+        "image_path": "Pathology_images/pathvqa-test-000009.jpg",
+        "question": "Which region of this thyroid unaffected by Hashimoto's thyroiditis contains the most prominent follicles?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "uniformly throughout the tissue",
+            "B": "central region",
+            "C": "There is a clinically incorrect premise in the question.",
+            "D": "peripheral region"
+        },
+        "correct_answer": "C",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000013-IP2",
+        "image_path": "Pathology_images/pathvqa-test-000013.jpg",
+        "question": "Which tissue type occupies the largest area in this specimen that contains no muscle?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "epithelial tissue",
+            "B": "adipose tissue",
+            "C": "connective tissue",
+            "D": "There is a clinically incorrect premise in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000021-IP2",
+        "image_path": "Pathology_images/pathvqa-test-000021.jpg",
+        "question": "Which part of the pancreatic islets shows the most preserved architecture without amyloid deposition?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "There is a clinically incorrect premise in the question.",
+            "B": "peripheral portion",
+            "C": "central portion",
+            "D": "entire islet uniformly"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000024-IP2",
+        "image_path": "Pathology_images/pathvqa-test-000024.jpg",
+        "question": "Which male reproductive structure is most prominent in this specimen containing only male reproductive anatomy?",
+        "question_type": "incorrect_premise",
+        "options": {
+            "A": "seminal vesicle",
+            "B": "There is a clinically incorrect premise in the question.",
+            "C": "prostate",
+            "D": "testis"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "false_suggestions 50",
+        "image_path": "CT_images/tension-pneumothorax-12 (1).png",
+        "question": "This chest CT image demonstrates adenocarcinoma in the upper right lung. Which structures contain most of the air visible within the thorax?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "lungs",
+            "B": "heart",
+            "C": "mediastinum",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "false_suggestions 51",
+        "image_path": "CT_images/c0486099-800px-wm.jpg",
+        "question": "This chest CT image demonstrates large cell carcinoma in the right lower lung. Which anatomical structures contain most of the air visible within the thorax?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "lungs",
+            "B": "There is a clinically false suggestion in the question.",
+            "C": "heart",
+            "D": "mediastinum"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000010-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000010.jpg",
+        "question": "This CT image demonstrates a diffuse abnormality. Which type of tissue is most clearly delineated by CT?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "There is a clinically false suggestion in the question.",
+            "B": "bone",
+            "C": "cartilage",
+            "D": "ligament"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000037-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000037.jpg",
+        "question": "This CT scan demonstrates a renal lesion in the left kidney. Which anatomical system contains the kidneys?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "respiratory system",
+            "B": "digestive system",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "urinary system"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000039-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000039.jpg",
+        "question": "This CT image demonstrates a severe abnormality. Which type of tissue generally appears most radiodense on CT?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "bone",
+            "B": "There is a clinically false suggestion in the question.",
+            "C": "adipose tissue",
+            "D": "air"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000024-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000024.jpg",
+        "question": "This CT image primarily shows the frontal lobe of the brain. Which structure provides the bony enclosure surrounding the brain?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "vertebral column",
+            "B": "There is a clinically false suggestion in the question.",
+            "C": "sternum",
+            "D": "skull"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000045-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000045.jpg",
+        "question": "This CT image is centered on the femoral condyles of the knee joint. Which two bones form the primary articulation of the knee?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "There is a clinically false suggestion in the question.",
+            "B": "femur and fibula",
+            "C": "tibia and fibula",
+            "D": "femur and tibia"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000017-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000017.jpg",
+        "question": "This MRI image is centered on the humeral head of the shoulder joint. Which bone contains the glenoid?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "scapula",
+            "B": "humerus",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "clavicle"
+        },
+        "correct_answer": "C",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000020-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000020.jpg",
+        "question": "This MRI image prominently shows the femoral neck of the hip joint. Which bone forms the proximal component of the hip joint?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "tibia",
+            "B": "fibula",
+            "C": "femur",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000010-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000010.jpg",
+        "question": "This CT image demonstrates a diffuse abnormality. Which type of tissue is most clearly delineated by CT?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "There is a clinically false suggestion in the question.",
+            "B": "bone",
+            "C": "cartilage",
+            "D": "ligament"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000037-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000037.jpg",
+        "question": "This CT scan demonstrates a renal lesion in the left kidney. Which anatomical system contains the kidneys?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "respiratory system",
+            "B": "digestive system",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "urinary system"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000039-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000039.jpg",
+        "question": "This CT image demonstrates a severe abnormality. Which type of tissue generally appears most radiodense on CT?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "bone",
+            "B": "There is a clinically false suggestion in the question.",
+            "C": "adipose tissue",
+            "D": "air"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000024-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000024.jpg",
+        "question": "This CT image primarily shows the frontal lobe of the brain. Which structure provides the bony enclosure surrounding the brain?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "vertebral column",
+            "B": "There is a clinically false suggestion in the question.",
+            "C": "sternum",
+            "D": "skull"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000045-FS",
+        "image_path": "CT_images/radimagenet-vqa-test-000045.jpg",
+        "question": "This CT image is centered on the femoral condyles of the knee joint. Which two bones form the primary articulation of the knee?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "There is a clinically false suggestion in the question.",
+            "B": "femur and fibula",
+            "C": "tibia and fibula",
+            "D": "femur and tibia"
+        },
+        "correct_answer": "A",
+        "modality": "CT"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000017-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000017.jpg",
+        "question": "This MRI image is centered on the humeral head of the shoulder joint. Which bone contains the glenoid?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "scapula",
+            "B": "humerus",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "clavicle"
+        },
+        "correct_answer": "C",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000020-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000020.jpg",
+        "question": "This MRI image prominently shows the femoral neck of the hip joint. Which bone forms the proximal component of the hip joint?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "tibia",
+            "B": "fibula",
+            "C": "femur",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000022-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000022.jpg",
+        "question": "This MRI scan highlights the frontal lobe of the brain. Which structure provides the bony enclosure surrounding the brain?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "vertebral column",
+            "B": "skull",
+            "C": "sternum",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000033-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000033.jpg",
+        "question": "This MRI image prominently visualizes the talus of the ankle. Which bones form the lower leg proximal to the ankle?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "tibia and fibula",
+            "B": "radius and ulna",
+            "C": "femur and tibia",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000054-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000054.jpg",
+        "question": "This MRI image is centered on the liver within the abdomen. Which organ is primarily responsible for filtering blood and producing urine?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "liver",
+            "B": "kidney",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "spleen"
+        },
+        "correct_answer": "C",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000058-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000058.jpg",
+        "question": "This MRI image prominently shows the humeral head of the shoulder joint. Which bone contains the glenoid?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "humerus",
+            "B": "scapula",
+            "C": "clavicle",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "radimagenet-vqa-test-000059-FS",
+        "image_path": "MRI_images/radimagenet-vqa-test-000059.jpg",
+        "question": "This MRI image prominently displays the occipital lobe of the brain. Which anatomical structure encloses the brain?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "skull",
+            "B": "There is a clinically false suggestion in the question.",
+            "C": "vertebral column",
+            "D": "sternum"
+        },
+        "correct_answer": "B",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "1_7afe7d6b62fec4f70b09008b9ada0fd7-FS",
+        "image_path": "CXR_images/000000_7afe7d6b62fec4f70b09008b9ada0fd7.jpg",
+        "question": "This chest X-ray demonstrates pneumonia in the peripheral right lower lung. Which structure separates the thoracic cavity from the abdominal cavity?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "diaphragm",
+            "B": "trachea",
+            "C": "clavicle",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "1_6b33644865832cf3e25c5d00049c0380-FS",
+        "image_path": "CXR_images/000001_6b33644865832cf3e25c5d00049c0380.jpg",
+        "question": "This chest X-ray demonstrates calcification of the aortic arch. Which organ forms most of the central cardiovascular silhouette?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "There is a clinically false suggestion in the question.",
+            "B": "lungs",
+            "C": "liver",
+            "D": "heart"
+        },
+        "correct_answer": "A",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_7ac1d89421035b48e47b4f1a1c970f4c-FS",
+        "image_path": "CXR_images/000013_7ac1d89421035b48e47b4f1a1c970f4c.jpg",
+        "question": "This chest X-ray demonstrates a pulmonary mass centered in the medial right middle lung. Which structures occupy most of the thoracic cavity on either side of the mediastinum?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "lungs",
+            "B": "kidneys",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "liver and spleen"
+        },
+        "correct_answer": "C",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_3928719f9491f45fa9205d9efc2603bd-FS",
+        "image_path": "CXR_images/000015_3928719f9491f45fa9205d9efc2603bd.jpg",
+        "question": "This chest X-ray demonstrates severe cardiomegaly. Which structure forms the cardiac silhouette on a chest radiograph?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "There is a clinically false suggestion in the question.",
+            "B": "trachea",
+            "C": "heart",
+            "D": "diaphragm"
+        },
+        "correct_answer": "A",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_d1ee146b55af8b9cd84ec605a9aa36bd-FS",
+        "image_path": "CXR_images/000027_d1ee146b55af8b9cd84ec605a9aa36bd.jpg",
+        "question": "This chest X-ray demonstrates enlargement of the aortic arch. Which anatomical system includes the aorta?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "respiratory system",
+            "B": "cardiovascular system",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "digestive system"
+        },
+        "correct_answer": "C",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_07494843e43e308ec5b7ec0e9f0ad829-FS",
+        "image_path": "CXR_images/000061_07494843e43e308ec5b7ec0e9f0ad829.jpg",
+        "question": "This chest X-ray demonstrates a pulmonary opacity in the apical region of the right upper lung. Which bony structures are visible superior to the lung fields?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "femurs",
+            "B": "clavicles",
+            "C": "pelvic bones",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "2_7ff325eacac9130136777f4e98a769a2-FS",
+        "image_path": "CXR_images/000063_7ff325eacac9130136777f4e98a769a2.jpg",
+        "question": "This chest X-ray demonstrates calcification along the left cardiac border. Which organ forms the cardiac silhouette?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "There is a clinically false suggestion in the question.",
+            "B": "lungs",
+            "C": "heart",
+            "D": "liver"
+        },
+        "correct_answer": "A",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "10_528b0f9791c96c9cb1b2e4f510223f8e-FS",
+        "image_path": "CXR_images/000068_528b0f9791c96c9cb1b2e4f510223f8e.jpg",
+        "question": "This chest X-ray demonstrates diffuse aortic calcification. Which anatomical system contains the aorta?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "respiratory system",
+            "B": "cardiovascular system",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "digestive system"
+        },
+        "correct_answer": "C",
+        "modality": "CXR"
+    },
+    {
+        "question_id": "false_suggestions 72",
+        "image_path": "CT_images/Normal- (1).jpg",
+        "question": "This kidney CT scan demonstrates hydronephrosis. Which organ system contains the kidneys?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "digestive system",
+            "B": "respiratory system",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "urinary system"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "false_suggestions 73",
+        "image_path": "CT_images/Normal- (6).jpg",
+        "question": "This kidney CT scan demonstrates renal cell carcinoma. Which organs produce urine?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "kidneys",
+            "B": "liver",
+            "C": "spleen",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "false_suggestions 74",
+        "image_path": "CT_images/1-006.jpg",
+        "question": "This pancreatic CT image demonstrates an abnormality in the pancreatic tail. Which organ system includes the pancreas?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "respiratory system",
+            "B": "digestive system",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "urinary system"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "false_suggestions 75",
+        "image_path": "CT_images/1-007.jpg",
+        "question": "This pancreatic CT image demonstrates an abnormality in the pancreatic head. Which organ lies posterior to the stomach?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "liver",
+            "B": "There is a clinically false suggestion in the question.",
+            "C": "pancreas",
+            "D": "urinary bladder"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "pathvqa-test-000007-FS",
+        "image_path": "Pathology_images/pathvqa-test-000007.jpg",
+        "question": "This specimen demonstrates malignant melanoma invading deeply into the reticular dermis. Which tissue forms the outermost layer of the skin?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "dermis",
+            "B": "subcutaneous tissue",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "epidermis"
+        },
+        "correct_answer": "C",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000009-FS",
+        "image_path": "Pathology_images/pathvqa-test-000009.jpg",
+        "question": "This normal thyroid specimen demonstrates the largest follicles in the central region. Which microscopic structures characterize thyroid tissue?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "There is a clinically false suggestion in the question.",
+            "B": "alveoli",
+            "C": "thyroid follicles",
+            "D": "glomeruli"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000013-FS",
+        "image_path": "Pathology_images/pathvqa-test-000013.jpg",
+        "question": "This specimen contains no muscle tissue and is dominated by connective tissue. Which broad tissue category provides structural support in the body?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "There is a clinically false suggestion in the question.",
+            "B": "epithelial tissue",
+            "C": "nervous tissue",
+            "D": "connective tissue"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000014-FS",
+        "image_path": "Pathology_images/pathvqa-test-000014.jpg",
+        "question": "This specimen demonstrates a benign lipoma with the greatest accumulation of adipose tissue centrally. Which cell type is characteristic of adipose tissue?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "There is a clinically false suggestion in the question.",
+            "B": "chondrocytes",
+            "C": "osteocytes",
+            "D": "adipocytes"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000021-FS",
+        "image_path": "Pathology_images/pathvqa-test-000021.jpg",
+        "question": "This specimen demonstrates normal pancreatic islets without amyloid deposition, with the central portion being most prominent. Which endocrine organ contains the islets of Langerhans?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "thyroid",
+            "B": "pancreas",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "adrenal gland"
+        },
+        "correct_answer": "C",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000024-FS",
+        "image_path": "Pathology_images/pathvqa-test-000024.jpg",
+        "question": "This specimen prominently demonstrates the prostate. Which body system contains the prostate?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "male reproductive system",
+            "B": "There is a clinically false suggestion in the question.",
+            "C": "respiratory system",
+            "D": "nervous system"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000026-FS",
+        "image_path": "Pathology_images/pathvqa-test-000026.jpg",
+        "question": "This specimen prominently demonstrates the organ of Corti within the cochlea. Which sensory system contains the cochlea?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "There is a clinically false suggestion in the question.",
+            "B": "auditory system",
+            "C": "visual system",
+            "D": "olfactory system"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000030-FS",
+        "image_path": "Pathology_images/pathvqa-test-000030.jpg",
+        "question": "This specimen represents a two-chamber cardiac view in which the right atrium is absent. Which organ contains the cardiac chambers?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "lung",
+            "B": "liver",
+            "C": "heart",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000036-FS",
+        "image_path": "Pathology_images/pathvqa-test-000036.jpg",
+        "question": "This normal skin specimen prominently demonstrates the reticular dermis. Which tissue layer lies superficial to the dermis?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "subcutaneous tissue",
+            "B": "fascia",
+            "C": "epidermis",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000045-FS",
+        "image_path": "Pathology_images/pathvqa-test-000045.jpg",
+        "question": "This specimen shows a normal periosteal bone surface without pulmonary osteoarthropathy. Which tissue forms the rigid structural framework of the skeleton?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "cartilage",
+            "B": "There is a clinically false suggestion in the question.",
+            "C": "bone",
+            "D": "skeletal muscle"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "false_suggestions 86",
+        "image_path": "CT_images/Normal- (73).jpg",
+        "question": "This kidney CT scan demonstrates renal cell carcinoma. Which organs are responsible for producing urine?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "liver",
+            "B": "There is a clinically false suggestion in the question.",
+            "C": "kidneys",
+            "D": "spleen"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "false_suggestions 87",
+        "image_path": "CT_images/Normal- (61).jpg",
+        "question": "This kidney CT scan demonstrates pyelonephritis. Which anatomical system contains the kidneys?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "digestive system",
+            "B": "respiratory system",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "urinary system"
+        },
+        "correct_answer": "C",
+        "modality": "CT"
+    },
+    {
+        "question_id": "false_suggestions 88",
+        "image_path": "CT_images/1-053.jpg",
+        "question": "This pancreatic CT image demonstrates pancreatic cancer. Which organ system includes the pancreas?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "digestive system",
+            "B": "urinary system",
+            "C": "respiratory system",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "false_suggestions 89",
+        "image_path": "CT_images/7-img-00008-00031.jpg",
+        "question": "This liver CT image demonstrates hepatocellular carcinoma. Which organ system includes the liver?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "respiratory system",
+            "B": "digestive system",
+            "C": "urinary system",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "CT"
+    },
+    {
+        "question_id": "false_suggestions 90",
+        "image_path": "CT_images/7-img-00008-00033.jpg",
+        "question": "This liver CT image demonstrates an abnormality in the right hepatic lobe. Which organ occupies much of the right upper abdomen?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "spleen",
+            "B": "There is a clinically false suggestion in the question.",
+            "C": "liver",
+            "D": "urinary bladder"
+        },
+        "correct_answer": "B",
+        "modality": "CT"
+    },
+    {
+        "question_id": "false_suggestions 91",
+        "image_path": "MRI_images/1113.jpg",
+        "question": "This brain MRI demonstrates an abnormality involving the thalamus. Which organ is being evaluated in this image?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "heart",
+            "B": "brain",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "liver"
+        },
+        "correct_answer": "C",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "false_suggestions 92",
+        "image_path": "MRI_images/1143.jpg",
+        "question": "This brain MRI demonstrates an abnormality involving the cerebellum. Which structure provides the bony enclosure of the brain?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "vertebral column",
+            "B": "skull",
+            "C": "sternum",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "false_suggestions 93",
+        "image_path": "MRI_images/1168.jpg",
+        "question": "This brain MRI demonstrates an abnormality in the frontal lobe. Which anatomical system contains the brain?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "nervous system",
+            "B": "respiratory system",
+            "C": "digestive system",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "MRI"
+    },
+    {
+        "question_id": "pathvqa-test-000000-FS",
+        "image_path": "Pathology_images/pathvqa-test-000000.jpg",
+        "question": "This specimen demonstrates normal tracheal mucosa without necrotizing tracheitis. Which organ system contains the trachea?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "digestive system",
+            "B": "There is a clinically false suggestion in the question.",
+            "C": "respiratory system",
+            "D": "urinary system"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000001-FS",
+        "image_path": "Pathology_images/pathvqa-test-000001.jpg",
+        "question": "This specimen is avascular and contains the greatest amount of tissue in its central region. Which type of examination is used to study microscopic tissue architecture?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "histological examination",
+            "B": "electrocardiography",
+            "C": "spirometry",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000015-FS",
+        "image_path": "Pathology_images/pathvqa-test-000015.jpg",
+        "question": "This specimen contains no urinary tissue and represents the gastrointestinal system. Which organ belongs to the gastrointestinal tract?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "lung",
+            "B": "heart",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "colon"
+        },
+        "correct_answer": "C",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000034-FS",
+        "image_path": "Pathology_images/pathvqa-test-000034.jpg",
+        "question": "This specimen demonstrates a non-cirrhotic liver with a smooth right hepatic surface. Which cell type forms the principal parenchyma of the liver?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "adipocytes",
+            "B": "chondrocytes",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "hepatocytes"
+        },
+        "correct_answer": "C",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000042-FS",
+        "image_path": "Pathology_images/pathvqa-test-000042.jpg",
+        "question": "This specimen contains no abdominal anatomy and represents the thoracic region. Which major organs are located within the thoracic cavity?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "lungs",
+            "B": "There is a clinically false suggestion in the question.",
+            "C": "kidneys",
+            "D": "urinary bladder"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000007-FS2",
+        "image_path": "Pathology_images/pathvqa-test-000007.jpg",
+        "question": "This skin specimen contains no compound nevus and prominently demonstrates normal reticular dermal architecture. Which layer forms the outermost surface of the skin?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "dermis",
+            "B": "There is a clinically false suggestion in the question.",
+            "C": "subcutaneous tissue",
+            "D": "epidermis"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000009-FS2",
+        "image_path": "Pathology_images/pathvqa-test-000009.jpg",
+        "question": "This thyroid specimen is unaffected by Hashimoto's thyroiditis and shows prominent follicles centrally. Which microscopic structures are characteristic of thyroid tissue?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "thyroid follicles",
+            "B": "alveoli",
+            "C": "There is a clinically false suggestion in the question.",
+            "D": "glomeruli"
+        },
+        "correct_answer": "C",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000013-FS2",
+        "image_path": "Pathology_images/pathvqa-test-000013.jpg",
+        "question": "This specimen contains no muscle and is dominated by adipose tissue. Which cells primarily compose adipose tissue?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "osteocytes",
+            "B": "adipocytes",
+            "C": "chondrocytes",
+            "D": "There is a clinically false suggestion in the question."
+        },
+        "correct_answer": "D",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000021-FS2",
+        "image_path": "Pathology_images/pathvqa-test-000021.jpg",
+        "question": "This specimen shows pancreatic islets without amyloid deposition and with the peripheral portion most prominently preserved. Which organ contains the islets of Langerhans?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "There is a clinically false suggestion in the question.",
+            "B": "thyroid",
+            "C": "pancreas",
+            "D": "adrenal gland"
+        },
+        "correct_answer": "A",
+        "modality": "pathology"
+    },
+    {
+        "question_id": "pathvqa-test-000024-FS2",
+        "image_path": "Pathology_images/pathvqa-test-000024.jpg",
+        "question": "This specimen contains only male reproductive anatomy and prominently demonstrates the testis. Which cells within the testis are responsible for producing sperm?",
+        "question_type": "false_suggestions",
+        "options": {
+            "A": "hepatocytes",
+            "B": "There is a clinically false suggestion in the question.",
+            "C": "germ cells",
+            "D": "pneumocytes"
+        },
+        "correct_answer": "B",
+        "modality": "pathology"
     }
-
-
-
 ]

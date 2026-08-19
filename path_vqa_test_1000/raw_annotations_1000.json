@@ -1,53 +1,7 @@
 [
-  {
-    "question_id": "pathvqa-test-000056",
-    "image path": "images/pathvqa-test-000056.jpg",
-    "prompt": "what show preserved outlines with loss of nuclei?",
-    "GT": "the necrotic cells",
-    "category": "pathology"
-  },
-  {
-    "question_id": "pathvqa-test-000057",
-    "image path": "images/pathvqa-test-000057.jpg",
-    "prompt": "what is 70yof had?",
-    "GT": "colon carcinoma",
-    "category": "pathology"
-  },
-  {
-    "question_id": "pathvqa-test-000058",
-    "image path": "images/pathvqa-test-000058.jpg",
-    "prompt": "what is present?",
-    "GT": "liver",
-    "category": "pathology"
-  },
-  {
-    "question_id": "pathvqa-test-000059",
-    "image path": "images/pathvqa-test-000059.jpg",
-    "prompt": "is choanal patency present?",
-    "GT": "no",
-    "category": "pathology"
-  },
-  {
-    "question_id": "pathvqa-test-000060",
-    "image path": "images/pathvqa-test-000060.jpg",
-    "prompt": "what is present?",
-    "GT": "adenoma",
-    "category": "pathology"
-  },
-  {
-    "question_id": "pathvqa-test-000061",
-    "image path": "images/pathvqa-test-000061.jpg",
-    "prompt": "is the epithelium above the intact basement membrane delineated from the residual normocellular gland on the upper right in this low-power view?",
-    "GT": "no",
-    "category": "pathology"
-  },
-  {
-    "question_id": "pathvqa-test-000062",
-    "image path": "images/pathvqa-test-000062.jpg",
-    "prompt": "what is present?",
-    "GT": "capillary",
-    "category": "pathology"
-  },
+
+
+
   {
     "question_id": "pathvqa-test-000063",
     "image path": "images/pathvqa-test-000063.jpg",

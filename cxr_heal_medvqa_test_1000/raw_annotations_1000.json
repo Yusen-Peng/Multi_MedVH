@@ -1,32 +1,5 @@
 [
-  {
-    "question_id": "5_900fa6baa0c15f5c96eaed57294ec6d4",
-    "image path": "images/000074_900fa6baa0c15f5c96eaed57294ec6d4.jpg",
-    "prompt": "List all abnormalities in Aorta?",
-    "GT": "The location of Aorta is at <seg>. It suffers from  Aortic enlargement.",
-    "category": "CXR"
-  },
-  {
-    "question_id": "5_c440f25216153cfc2bcf4af70c3d59c4",
-    "image path": "images/000075_c440f25216153cfc2bcf4af70c3d59c4.jpg",
-    "prompt": "What abnormalities does Aorta suffer from?",
-    "GT": "The location of Aorta is at <seg>. It suffers from  Aortic enlargement.",
-    "category": "CXR"
-  },
-  {
-    "question_id": "4_79af351d135ae05867a85d509082f530",
-    "image path": "images/000076_79af351d135ae05867a85d509082f530.jpg",
-    "prompt": "Does the patient have Pulmonary fibrosis at Heart?",
-    "GT": "The location of Heart is at <seg>. The answer is No",
-    "category": "CXR"
-  },
-  {
-    "question_id": "10_bd6eb525438d6da1ced0ed1810857772",
-    "image path": "images/000077_bd6eb525438d6da1ced0ed1810857772.jpg",
-    "prompt": "Does Left lower lung suffer from Pleural thickening?",
-    "GT": "The location of Left lower lung is at <seg>. The answer is No",
-    "category": "CXR"
-  },
+
   {
     "question_id": "1_947c9697bb1023635f14e326d13c55bc",
     "image path": "images/000078_947c9697bb1023635f14e326d13c55bc.jpg",
@@ -34,25 +7,12 @@
     "GT": "The location of Aorta is at <seg>. It suffers from  Aortic enlargement.",
     "category": "CXR"
   },
-  {
-    "question_id": "6_39fba09b48f252efaa54f0d093a8294d",
-    "image path": "images/000079_39fba09b48f252efaa54f0d093a8294d.jpg",
-    "prompt": "Does the patient have Infiltration at Right lower lung?",
-    "GT": "The location of Right lower lung is at <seg>. The answer is No",
-    "category": "CXR"
-  },
+
   {
     "question_id": "3_5076848df8fa698b517a34f6a8246d43",
     "image path": "images/000080_5076848df8fa698b517a34f6a8246d43.jpg",
     "prompt": "Does Heart suffer from Cardiomegaly?",
     "GT": "The location of Heart is at <seg>. The answer is Yes",
-    "category": "CXR"
-  },
-  {
-    "question_id": "0_e5b7f3d74b043850943f8ae9caab8c9d",
-    "image path": "images/000081_e5b7f3d74b043850943f8ae9caab8c9d.jpg",
-    "prompt": "Does Aorta suffer from Calcification?",
-    "GT": "The location of Aorta is at <seg>. The answer is No",
     "category": "CXR"
   },
   {
@@ -76,13 +36,7 @@
     "GT": "The location of Heart is at <seg>. It has no abnormalities",
     "category": "CXR"
   },
-  {
-    "question_id": "6_de7c0acddd7ed5fb90f5f5e12458235b",
-    "image path": "images/000085_de7c0acddd7ed5fb90f5f5e12458235b.jpg",
-    "prompt": "Is there Atelectasis in the Left middle lung of this patient?",
-    "GT": "The location of Left middle lung is at <seg>. The answer is No",
-    "category": "CXR"
-  },
+
   {
     "question_id": "1_4a101b60ccb5c0722b952bf238579a5c",
     "image path": "images/000086_4a101b60ccb5c0722b952bf238579a5c.jpg",
